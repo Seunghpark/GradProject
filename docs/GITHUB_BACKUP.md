@@ -28,6 +28,16 @@ an owner-controlled private off-computer destination separately.
 
 Use `PUBLICATION_MANIFEST.json` at the repository root to verify this publication's
 file sizes, SHA-256 values and expected Git blob IDs. The manifest excludes its
-own hash. Later edits require a new manifest. The existing local checkout has an
-unborn branch; synchronizing its Git metadata after connector publication is a
-separate step and must preserve local uncommitted and ignored private data.
+own hash. Later published edits require a refreshed manifest.
+
+The 190-file program/academic snapshot was published at commit
+`6c9086556b80795dd75dc29d77162db4ec306431`. Its local Git objects, `main` and
+`origin/main` were subsequently synchronized without replacing working files or
+changing the original raw data/API key. The former unborn-branch note is
+historical; inspect current Git status rather than re-running the initial import.
+
+The Claude handoff is a later documentation-only update. Read
+[the current handoff](../CLAUDE_HANDOFF.md) and
+[submission readiness](SUBMISSION_READINESS_2026-10-30.md). Preserved review ZIPs
+and the original publication receipt remain dated snapshots, not receipts for
+subsequent edits or school submission.

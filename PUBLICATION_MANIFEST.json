@@ -11,11 +11,25 @@
       "git_blob_sha": "fc0c0f556dd7292cc04f65a390f6039622b5f18a"
     },
     {
-      "path": "README.md",
-      "bytes": 23436,
+      "path": "CLAUDE_HANDOFF.md",
+      "bytes": 22468,
       "encoding": "utf-8",
-      "sha256": "2a821979583ec9dccc158b6c246c93aae5dff644925c499607aa444b888a7f42",
-      "git_blob_sha": "ede1f081472cc3f6c0c12d6eb3f3f035a5d780bc"
+      "sha256": "bf4cf9aee0655e0ad55251d3eb0cc6321c144706cdc099df969472494189af4b",
+      "git_blob_sha": "a3888e8cea95197e9d73b70e48ef843453bd67e9"
+    },
+    {
+      "path": "CLAUDE_START_PROMPT.txt",
+      "bytes": 2752,
+      "encoding": "utf-8",
+      "sha256": "5edba561a2e7f58e50c83cc8efdddeea0a002c18c3e1c14662cf42476e50bc74",
+      "git_blob_sha": "bc6ba43ac9ac54cd88ee5335f17e4fc20225c519"
+    },
+    {
+      "path": "README.md",
+      "bytes": 23736,
+      "encoding": "utf-8",
+      "sha256": "217381eb3fe9260e1ec48ccad1b2f1aaccb14a9de0d4768f685ec55d782821d5",
+      "git_blob_sha": "42af77032e87e3ed6182dfd9fdc66123314f3e22"
     },
     {
       "path": "backend/.env.example",
@@ -599,6 +613,13 @@
       "git_blob_sha": "bb1ae7115b1b7170aee69c69bcc0935f8837fe2c"
     },
     {
+      "path": "docs/CONVERSATION_DECISIONS.md",
+      "bytes": 6920,
+      "encoding": "utf-8",
+      "sha256": "67d6ac7f4ed9101fafe9740807f3a9c7dd4ad3144e25c40f768f243cac1f0cee",
+      "git_blob_sha": "bffe516a5af7f5201275959d6bd65590936bc009"
+    },
+    {
       "path": "docs/DEEP_LEARNING_RESULTS.md",
       "bytes": 6982,
       "encoding": "utf-8",
@@ -642,10 +663,10 @@
     },
     {
       "path": "docs/GITHUB_BACKUP.md",
-      "bytes": 1969,
+      "bytes": 2482,
       "encoding": "utf-8",
-      "sha256": "b27aba89ebf1599339e133a8424fa0b09accd0b2ecbae7f2c2d402871c8db5ea",
-      "git_blob_sha": "7a6e5237f8155430e7bfd915f9231b88a9aab3fe"
+      "sha256": "7870a54bf298f9cdffe57e91d5bd25495afe81c037b0d19de6f686e462e73374",
+      "git_blob_sha": "fd0232743f13462300b1cd035a8b29546ac73e89"
     },
     {
       "path": "docs/KOREAN_RELATED_WORK.md",
@@ -795,18 +816,25 @@
       "git_blob_sha": "7b088e07766562b61cbb5c9bfe90e80a5ed3e453"
     },
     {
-      "path": "docs/SUBMISSION_REQUIREMENTS.md",
-      "bytes": 6286,
+      "path": "docs/SUBMISSION_READINESS_2026-10-30.md",
+      "bytes": 5904,
       "encoding": "utf-8",
-      "sha256": "4eac5b117eaff436af3b25e35cd4d598d0b658a0a576054c14ab4b7382fe4613",
-      "git_blob_sha": "fa983a0dd0446b2d955eb9d7c6fca8b64591b2e0"
+      "sha256": "9de491680b0bd9f1243e8cbe533ebb2a53a8d626c102e3d3a9132cebbdbb16e6",
+      "git_blob_sha": "3b4afd3bfbd873041c541405bc2d7ae27785364d"
+    },
+    {
+      "path": "docs/SUBMISSION_REQUIREMENTS.md",
+      "bytes": 6697,
+      "encoding": "utf-8",
+      "sha256": "4bd62c52b3a9509fe70ad9478c6593fe04b373efe5b51ec0f9088fcba728d909",
+      "git_blob_sha": "8a2ba2fff50db6512f184f8c663e8a8be5291a50"
     },
     {
       "path": "docs/TEAM_HANDOFF.md",
-      "bytes": 15564,
+      "bytes": 15948,
       "encoding": "utf-8",
-      "sha256": "4b746825dc503492946c220a7c586fc9c46167c8fdcc0e7612db564446431c6a",
-      "git_blob_sha": "0481dd278e6e745f78366709e3b8d2c2d5f74738"
+      "sha256": "dfbfe4c80cedef97999270743185563b20aebf579404926bd9fcf06d75ed8455",
+      "git_blob_sha": "b676fd4fc01468250f03f965422cbf6ac26f8be9"
     },
     {
       "path": "docs/TEMPORAL_MODELS.md",

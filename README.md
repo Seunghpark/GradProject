@@ -1,5 +1,10 @@
 # LolAi.gg
 
+**Resume in Claude Code:** read [CLAUDE_HANDOFF.md](CLAUDE_HANDOFF.md), use the
+[starter prompt](CLAUDE_START_PROMPT.txt), and check the
+[submission gates](docs/SUBMISSION_READINESS_2026-10-30.md). These consolidate the
+current state; the older release paragraphs below are historical records.
+
 Graduation review files: [report PDF](submission/final_v06_2026-10-30/LolAi_FinalReport_v06_Review.pdf),
 [editable report](submission/final_v06_2026-10-30/LolAi_FinalReport_v06_Review.docx),
 [18-slide presentation](submission/final_v06_2026-10-30/소프트웨어학과_박승현(2019310202).pptx),

@@ -1,0 +1,14 @@
+Continue the existing LolAi.gg project; do not start a new application.
+
+Open this folder in Claude Code:
+C:\Users\sh Park\Documents\ChatGPT\ㅈ조업 프로잭트\GradProject
+
+Read CLAUDE_HANDOFF.md first, then docs/CONVERSATION_DECISIONS.md and docs/SUBMISSION_READINESS_2026-10-30.md. Inspect git status and the files before editing. Older status documents contain historical release notes; the handoff and 0.6.0 completion record take precedence.
+
+My immediate goal is an honest, demonstrable SKKU graduation submission. The deadline I supplied is October 30, 2026, 23:59 Korea time. Check the actual current date/time before scheduling work. Deep learning is required. Adviser: 한환수. Slides may use a free format; the final report follows the supplied HWP form. The current report is 46 pages and slides are 18 pages, but adviser approval, accepted report file format, exact title consistency and actual portal upload are unconfirmed. The related-work section is only about two pages versus the form's approximate seven-page guide: audit this first without padding or inventing citations. Ask me to confirm only facts you cannot establish from the files, while continuing independent work.
+
+Do not claim the entire OP.GG/YOUR.GG/FOW/GGQ/DEEPLOL vision is finished. Our own Riot-data analysis is the main product. Keep English as default and the Korean switch. Focus code/backend reliability before visual redesign. Actual-game testing, voice/live coaching and statistical skill-tier estimation are deferred. Ask before changing that direction or adding a large dependency/service.
+
+Preserve original raw data, models, evaluations and earlier submission copies. Do not retrain over the active model, tune on viewed holdouts, overwrite the frozen JSONL with the collector's default output, or relabel current ranks as historical game-time ranks. The lost 1,000-game/XGBoost 79% experiment is reported history, not a recovered result. Current MLP performance is weak and must be described honestly. Keep Riot/YouTube keys only in backend/.env; never print, commit or ask me to paste them into chat. Private databases/backups are not on public GitHub.
+
+First give a short verified state: implemented, incomplete, immediate submission blockers. Then fix bounded issues that fit the remaining time, keeping source/report/slides consistent and preserving prior copies. Run appropriate checks after code changes. Existing evidence is 276 backend tests plus six subtests, 41 frontend tests and a successful build; do not call those a fresh pass unless rerun. At each handoff report exact files changed, checks run, limitations, and the next concrete action. Do not promise future autonomous completion or upload/contact anyone without my instruction.

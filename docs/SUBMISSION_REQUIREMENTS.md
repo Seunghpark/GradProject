@@ -2,6 +2,12 @@
 
 Source: notice text supplied by the user on 2026-10-28. This file records requirements; it is not evidence that anything has been uploaded or approved. The user explicitly said earlier uploaded files/screenshot entries are samples and should be ignored as final deliverables.
 
+Current October 30 review: [submission readiness](SUBMISSION_READINESS_2026-10-30.md).
+The final review artifacts are 46 report pages and 18 slides; the full backend
+receipt is 276 tests plus six subtests. This supersedes earlier artifact/check
+counts below. Known format, exact-title, personal/adviser and related-work-depth
+gaps remain. Public GitHub publication is complete; school submission is not.
+
 ## Deadline
 
 Submission window: October 12 through Friday October 30 at 23:59, interpreted as 2026 and Korean time from the current project/session context. The final submission deadline is NOT the December 18 conference-evidence date.

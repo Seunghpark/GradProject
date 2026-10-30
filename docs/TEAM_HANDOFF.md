@@ -1,5 +1,11 @@
 # LolAi.gg team handoff and current completion gates
 
+**Current consolidated handoff:** [CLAUDE_HANDOFF.md](../CLAUDE_HANDOFF.md).
+Use it with [conversation decisions](CONVERSATION_DECISIONS.md) and
+[submission readiness](SUBMISSION_READINESS_2026-10-30.md). It supersedes the
+dated status/next-step paragraphs below, including obsolete provider, GitHub,
+test-count and report-size claims. Earlier records are retained as history.
+
 Current source/runtime: **0.6.0**. [Completion record](COMPLETION_2026-10-30.md)
 supersedes older current-status claims below. Normal-terminal 276 tests + six
 subtests passed (one warning, 32.90s); frontend 41 tests/build passed. Purchase,
