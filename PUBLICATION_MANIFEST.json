@@ -635,10 +635,10 @@
     },
     {
       "path": "docs/DEMO_SCRIPT.md",
-      "bytes": 4101,
+      "bytes": 6542,
       "encoding": "utf-8",
-      "sha256": "ceb3b597f85983006867559a41b1a7bdbaafd5206c423a578af8bcdb00efdaf5",
-      "git_blob_sha": "4d13fcb914daeee637627194e45bd93c5ba23858"
+      "sha256": "abe50a6b92976ca7c79ea03762a64bc73073de4579b5f14c1df81d0a5979f359",
+      "git_blob_sha": "08362e5062ce9c9d434e774d3e1da827b9b252f5"
     },
     {
       "path": "docs/ENGLISH_RELATED_WORK.md",
@@ -824,10 +824,10 @@
     },
     {
       "path": "docs/SUBMISSION_READINESS_2026-10-30.md",
-      "bytes": 5904,
+      "bytes": 6090,
       "encoding": "utf-8",
-      "sha256": "9de491680b0bd9f1243e8cbe533ebb2a53a8d626c102e3d3a9132cebbdbb16e6",
-      "git_blob_sha": "3b4afd3bfbd873041c541405bc2d7ae27785364d"
+      "sha256": "aaa6ec78ab060cb546fbb4bb09cf944244ce0d6a5d42b121c190d9ee695532be",
+      "git_blob_sha": "8077357ad7e180f96a023beade96eabd288989ce"
     },
     {
       "path": "docs/SUBMISSION_REQUIREMENTS.md",
@@ -865,58 +865,65 @@
       "git_blob_sha": "2a8f80c78d94af2380dec5c3faf2a8cf1715a065"
     },
     {
+      "path": "docs/WRAP_UP_STATUS.md",
+      "bytes": 5477,
+      "encoding": "utf-8",
+      "sha256": "81fcff882650202170698aacf24c4988a8ec390db3d4e6b82cf39ad90c131819",
+      "git_blob_sha": "f416c0a323098291cf535237023d046f5b883bee"
+    },
+    {
       "path": "docs/screenshots/learning-resources.png",
       "bytes": 56263,
-      "encoding": "base64",
+      "encoding": "binary",
       "sha256": "9e4f03e42dc60494c63dd0b0ad18227fbeea584b4599d2122f9fb5b336895720",
       "git_blob_sha": "0527914be0a5d162ea7db7d976c86347ef9a2239"
     },
     {
       "path": "docs/screenshots/live-riot-dashboard.jpg",
       "bytes": 173771,
-      "encoding": "base64",
+      "encoding": "binary",
       "sha256": "9a96800f4f0095d90c02052f09bf9e5578ea31452f40c8b314ebeb07d1f5cfc5",
       "git_blob_sha": "c822aa7ef0427e294455e202c320ba982caee266"
     },
     {
       "path": "docs/screenshots/real-model-evaluation.jpg",
       "bytes": 116403,
-      "encoding": "base64",
+      "encoding": "binary",
       "sha256": "ddbf92487dbdd7c9bb1ffb984bdd5cbb9ae4febfeedd79fb87755ada9f537f94",
       "git_blob_sha": "a387217da7a2016d38a479eaeca0b301d2d02c67"
     },
     {
       "path": "docs/screenshots/restarted-live-chrome.jpg",
       "bytes": 85093,
-      "encoding": "base64",
+      "encoding": "binary",
       "sha256": "f99cb65c0fdad2a4e82e939aac6ce55f3f393de6d1a46133641ba0c4d5c0f93b",
       "git_blob_sha": "7676b263f0d65b0095145f0b7f294ae0ba6b02ac"
     },
     {
       "path": "docs/screenshots/restarted-neural-evaluation.png",
       "bytes": 71138,
-      "encoding": "base64",
+      "encoding": "binary",
       "sha256": "1b79191b3cb3750fae8c85c838c1765a05e712f1a7a15e98da48ad69a30fbd2b",
       "git_blob_sha": "166787703b416a87eea404164f175788c67343e4"
     },
     {
       "path": "docs/screenshots/restarted-neural-live.png",
       "bytes": 64102,
-      "encoding": "base64",
+      "encoding": "binary",
       "sha256": "f43386386b77ebb4b2743b22cfdacebd40ba9175818486c2b135016aa3413e4a",
       "git_blob_sha": "4ac205025511b412b30fdf3f1baf1dc9f502d959"
     },
     {
       "path": "docs/screenshots/restarted-neural-match.png",
       "bytes": 63972,
-      "encoding": "base64",
+      "encoding": "binary",
       "sha256": "e237e924ad85f9343ed4a1671a18f80f96ff5dbf35f152bade12e6c69701fc9b",
       "git_blob_sha": "b7f2ec1cea4bbe7fb727a522bc8b6a409bd1a875"
     },
     {
       "path": "docs/screenshots/v06-later-audit.png",
       "bytes": 67531,
-      "encoding": "base64",
+      "encoding": "binary",
       "sha256": "90110a79b3b9978d12e855024d8e90d896f6d6301d2251c17b7f2ae8e7b562bd",
       "git_blob_sha": "3bc972318d2e49fb9fc1ae54b7c3209c57d46f96"
     },
@@ -1306,9 +1313,16 @@
       "git_blob_sha": "c8eb1b36158f5b1ff86e9fa6e7e39ff2ea93f34c"
     },
     {
+      "path": "submission/LolAi_Final_Package_v07_2026-10-30.zip",
+      "bytes": 2630923,
+      "encoding": "binary",
+      "sha256": "bac3ace2dde746537770c7235c1ba322c6d8f4889a503b180ece036c28fc4a2e",
+      "git_blob_sha": "517812a0e9d463b070429e9e3b6dc22142b11416"
+    },
+    {
       "path": "submission/LolAi_Review_Package_v06_2026-10-30.zip",
       "bytes": 2571319,
-      "encoding": "base64",
+      "encoding": "binary",
       "sha256": "37f8814f9c5e8509dd046729fa7090e54dc8bf41629d194c3fcddf77207a550b",
       "git_blob_sha": "00a86cbe3dd41630434c073db9c3496c3d51a04b"
     },
@@ -1336,14 +1350,14 @@
     {
       "path": "submission/final_v06_2026-10-30/LolAi_FinalReport_v06_Review.docx",
       "bytes": 1326279,
-      "encoding": "base64",
+      "encoding": "binary",
       "sha256": "3246b529db956195dc69e20ab640571fa862fd634af36690628b131107c23d14",
       "git_blob_sha": "bbda1587639356a486dedd74910514669a8a1a8f"
     },
     {
       "path": "submission/final_v06_2026-10-30/LolAi_FinalReport_v06_Review.pdf",
       "bytes": 1130142,
-      "encoding": "base64",
+      "encoding": "binary",
       "sha256": "2d54ce9ebeb898f07707d21bedff5fde18272da2fec20a5ee9bdf104588708dc",
       "git_blob_sha": "c04059a70824daca95a6490ee81a694d28e2255d"
     },
@@ -1357,7 +1371,42 @@
     {
       "path": "submission/final_v06_2026-10-30/소프트웨어학과_박승현(2019310202).pptx",
       "bytes": 94510,
-      "encoding": "base64",
+      "encoding": "binary",
+      "sha256": "65102981113f7c97ca0694221f132cd09b0a6cb7949b14630557841c3c389a1f",
+      "git_blob_sha": "c0687248b43aba29059e65467d26483937e10fda"
+    },
+    {
+      "path": "submission/final_v07_2026-10-30/LolAi_FinalReport_v07.docx",
+      "bytes": 1326201,
+      "encoding": "binary",
+      "sha256": "cf405fa5f7b97df8099db8158ce4663c642de143bef42bb128b0ff22dfa2fdf1",
+      "git_blob_sha": "932651f6047313331523b76b1c11584d2309e746"
+    },
+    {
+      "path": "submission/final_v07_2026-10-30/LolAi_FinalReport_v07.pdf",
+      "bytes": 1145764,
+      "encoding": "binary",
+      "sha256": "651314d282b387794e468ba3073f369242174160dce6967dd95628b503b9aedd",
+      "git_blob_sha": "c03dda6dfb809c79b76b8889bc9e3f87a43a07e3"
+    },
+    {
+      "path": "submission/final_v07_2026-10-30/READ_ME_FIRST.md",
+      "bytes": 3891,
+      "encoding": "utf-8",
+      "sha256": "c94a1f2243aeb63edbff68198147e2b55177cf93cd75a082a925de04e57a475d",
+      "git_blob_sha": "7bfadd403dbb17855b927ee66b0347fc2469b035"
+    },
+    {
+      "path": "submission/final_v07_2026-10-30/backend_check_output.txt",
+      "bytes": 883,
+      "encoding": "utf-8",
+      "sha256": "4481637cabf9a72f2ef30aad4f05f23394c608badf4a2169b16a60c665eced7d",
+      "git_blob_sha": "d62561cd620b4b6988ad613826f597a991206e1e"
+    },
+    {
+      "path": "submission/final_v07_2026-10-30/소프트웨어학과_박승현(2019310202).pptx",
+      "bytes": 94510,
+      "encoding": "binary",
       "sha256": "65102981113f7c97ca0694221f132cd09b0a6cb7949b14630557841c3c389a1f",
       "git_blob_sha": "c0687248b43aba29059e65467d26483937e10fda"
     }

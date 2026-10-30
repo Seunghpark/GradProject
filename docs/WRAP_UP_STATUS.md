@@ -30,6 +30,8 @@ Checked in the final Claude Code session, starting 22:32 KST. This file is the c
 | Export | `lolai-live-analysis.json`, about 689 KB, no key pattern |
 | English/Korean switch | Korean interface shown and saved; switched back |
 | Browser console | No errors |
+| Package source | Extracted from the ZIP: 275 passed, 1 skipped (private dataset test), 1 warning, 6 subtests. Uses this computer's Python environment, so it is not a clean-machine test |
+| Package scan | 194 files, no key patterns, no `.env`, SQLite, JSONL or certificate files |
 | Private backup | `.private-backups/20261030T134001046635Z`, 14 verified files |
 
 Report checks: rendered with Microsoft Word, changed pages inspected, and every contents entry matched its printed page. v06 and v07 text differ only on the cover, contents, new related-work page and conclusion pages.
@@ -47,6 +49,11 @@ The private collection is now 187 genuine matches after the live lookups. It is 
 | Missing | Learned metric weights or SHAP, participant estimated-tier enrichment, validated item or strategy advice, authenticated peer feedback, communication or behavior classifiers |
 | Deferred by the owner | Visual redesign, voice coaching, large real-time coaching, real-game testing, statistical skill-rank estimation |
 | Blocked | Low-elo study (zero enrolled players, zero eligible games), coaching efficacy (needs a real user study), public deployment and clean-machine checks |
+
+## Package and GitHub
+
+- Package: `submission/LolAi_Final_Package_v07_2026-10-30.zip`, built from commit `3e10fb3`. The ZIP's SHA-256 is in the commit that adds it.
+- GitHub: the push of this work was refused with 403. The saved token can read the repository but cannot write to it. The commits exist locally until the push succeeds.
 
 ## Remaining human gates
 
