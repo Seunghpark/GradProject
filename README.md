@@ -1,7 +1,7 @@
 # LolAi.gg
 
-**Resume in Claude Code:** read [CLAUDE_HANDOFF.md](CLAUDE_HANDOFF.md), use the
-[starter prompt](CLAUDE_START_PROMPT.txt), and check the
+**Resume in Claude Code:** use the [master wrap-up prompt](CLAUDE_MASTER_PROMPT.md),
+read [CLAUDE_HANDOFF.md](CLAUDE_HANDOFF.md), and check the
 [submission gates](docs/SUBMISSION_READINESS_2026-10-30.md). These consolidate the
 current state; the older release paragraphs below are historical records.
 

@@ -2,6 +2,8 @@
 
 Prepared October 30, 2026 (Asia/Seoul). This is the current handoff for the existing **0.6.0** program, not a new roadmap or a claim that every original idea was completed. Read the code before changing it. The immediate user request is to organize the work for Claude and assess submission readiness.
 
+For the full execution prompt with the user's reported tools/MCPs and final-package workflow, use [CLAUDE_MASTER_PROMPT.md](CLAUDE_MASTER_PROMPT.md). Its tool inventory distinguishes local configuration from unverified connection/installation claims. The watermark-guide transcript is not part of LolAi's academic requirements.
+
 ## 1. Open the existing project
 
 - Local project: `C:\Users\sh Park\Documents\ChatGPT\ㅈ조업 프로잭트\GradProject`.

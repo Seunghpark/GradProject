@@ -1,5 +1,7 @@
 Continue the existing LolAi.gg project; do not start a new application.
 
+For the complete wrap-up instructions, read CLAUDE_MASTER_PROMPT.md. It includes the tool/MCP inventory, priority order, evidence safeguards, packaging and school-submission gates. The shorter orientation below remains valid.
+
 Open this folder in Claude Code:
 C:\Users\sh Park\Documents\ChatGPT\ㅈ조업 프로잭트\GradProject
 
