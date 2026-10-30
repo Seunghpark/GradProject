@@ -57,9 +57,9 @@ The private collection is now 187 genuine matches after the live lookups. It is 
 
 ## Remaining human gates
 
-1. Compare the title with the portal. The report and slides use: **LolAi.gg: 딥러닝 기반 리그 오브 레전드 과거 경기 분석 및 승패 예측 시스템**. This is the working title, not a confirmed registered title.
-2. Confirm the accepted report format. The report is DOCX/PDF, not native HWP.
-3. Read and correct the reflection and the AI-assistance wording.
+1. Title: the student confirmed the portal matches **LolAi.gg: 딥러닝 기반 리그 오브 레전드 과거 경기 분석 및 승패 예측 시스템**.
+2. Format: the student confirmed the school accepts PDF.
+3. Reflection: added from the student's own answers; the student should read the final text once.
 4. Confirm department, college, project or paper track, and individual status.
 5. Delete the first GitHub token if that is not done.
 6. Complete the adviser review and online signature.
