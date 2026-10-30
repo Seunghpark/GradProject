@@ -1,5 +1,7 @@
 # Submission readiness: October 30, 2026
 
+> Latest status and files: [WRAP_UP_STATUS.md](WRAP_UP_STATUS.md) and `submission/final_v07_2026-10-30/`. The text below is the earlier assessment.
+
 **Assessment:** a working, documented research prototype is available for student/adviser review and possible submission. It is not an all-features commercial analytics platform or a demonstrated successful coach. Graduation acceptance cannot be confirmed by code tests, page counts or this assistant.
 
 The deadline supplied by the user is **today, October 30, 2026, 23:59 KST**. Verify the actual current time before following this checklist.

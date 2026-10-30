@@ -33,3 +33,27 @@ Say: "The sample keeps the interface demonstrable offline. Research limitations 
 Run check.cmd from a normal terminal and retain its actual result. Verify Export analysis by opening the downloaded JSON and checking its player/source/match count. Rehearse a fresh startup, and verify required report/slides/video against the university rubric. Current known checks and blocks are in QA_RESULTS.md; exact dataset/model evidence is in REAL_MODEL_RESULTS.md.
 
 Earlier uploaded report/PPT files are samples per the user and are not final submission evidence. Deep learning is mandatory and an actual three-hidden-layer MLP is implemented. Use the actual designated report/PPT forms, measured negative result and limitations. Complete adviser review/online signature and final submission before October 30 at 23:59.
+
+## 예상 질문과 답변
+
+**신경망이 실제로 구현되었나요?** 네. 6→16→8→4→1 구조의 세 은닉층 MLP이며 매개변수는 289개입니다. 실제 저장된 가중치로 추론합니다.
+
+**성능이 좋은가요?** 아니요. 원래 21경기 평가에서 MLP는 정확도 47.62%, AUC 0.490909, Brier 0.372683이었습니다. 학습 정확도는 95.18%여서 과적합이 뚜렷합니다. 신경망의 우수성은 입증하지 못했습니다.
+
+**왜 추가 35경기에서는 57.14%인가요?** 표본이 달라서 나온 값입니다. 모형을 바꾸거나 재학습하지 않았으므로 개선으로 볼 수 없습니다. 같은 표본에서 로지스틱은 80.00%였고, MLP의 Brier 0.319481은 상수 기준선 0.267321보다 나빴습니다.
+
+**추가 35경기는 외부 검증인가요?** 아닙니다. 모형과 제외 목록은 미리 고정했지만, 평가 규칙을 회고적으로 정한 편의표본입니다.
+
+**입력에 최종 경기 결과가 들어가나요?** 들어가지 않습니다. 입력은 540~600초 창의 최신 프레임에서 뽑은 골드, 경험치, CS, 킬, 타워, 드래곤의 팀 차이 여섯 개이고, 실제 프레임은 약 9분입니다.
+
+**복기 팁이 승률을 올려 주나요?** 입증하지 않았습니다. 우선순위는 격차 × 동일 가중치 × 최근 일관성이며, 인과 효과가 아니라 복기할 항목의 순서입니다.
+
+**참고 집단은 어떻게 만드나요?** 같은 역할, 패치, 대전 유형으로 제한하고 본인과 불러온 경기를 제외합니다. 지표마다 별도 30경기, 서로 다른 플레이어 10명, 최근 관측 3개가 필요합니다.
+
+**OP.GG를 그대로 가져온 건가요?** 아닙니다. Riot 자료로 직접 분석합니다. OP.GG 공식 MCP 등 외부 자료는 선택적 보조 입력이며 상용 서비스의 모든 기능을 구현한 것은 아닙니다.
+
+**실시간 코칭이 되나요?** 아니요. 완료 경기 분석이 범위입니다. 본인 Live Client 읽기 코드는 있지만 실제 게임에서 검증하지 않았습니다.
+
+**예전 1,000경기 실험 결과는요?** 잃어버린 컴퓨터의 기록이며 원자료와 로그를 복구하지 못했으므로 이 작품의 결과로 제시하지 않습니다.
+
+**API 키는 어디에 있나요?** 서버의 무시된 `backend/.env`에만 있고 브라우저 응답과 내보내기 파일에는 포함되지 않습니다.
