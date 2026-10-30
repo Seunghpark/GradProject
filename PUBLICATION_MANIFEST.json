@@ -866,10 +866,10 @@
     },
     {
       "path": "docs/WRAP_UP_STATUS.md",
-      "bytes": 5503,
+      "bytes": 5438,
       "encoding": "utf-8",
-      "sha256": "7e48a9549f0e7972fc1b6605c061007b06d8c5aea17512712d1d39e6aec56fe9",
-      "git_blob_sha": "ec0590a5b3ecd24c2a698f4c27af941d50bc7300"
+      "sha256": "67483c6046d214cce39983cec5b104d46c5f68f2e30d8f4c71d4c4c33d636f77",
+      "git_blob_sha": "f2e7c043d8da4e698ce43252f8336d82ef362cdb"
     },
     {
       "path": "docs/screenshots/learning-resources.png",
@@ -1314,10 +1314,10 @@
     },
     {
       "path": "submission/LolAi_Final_Package_v07_2026-10-30.zip",
-      "bytes": 2630923,
+      "bytes": 2646235,
       "encoding": "binary",
-      "sha256": "bac3ace2dde746537770c7235c1ba322c6d8f4889a503b180ece036c28fc4a2e",
-      "git_blob_sha": "517812a0e9d463b070429e9e3b6dc22142b11416"
+      "sha256": "478cfa0d1ea149d9bfd46c7ad9bce919c8186a8281bc7c51dec4b949e1f0ea15",
+      "git_blob_sha": "01ebad31a3072e3a98f8ac795119531422aadea3"
     },
     {
       "path": "submission/LolAi_Review_Package_v06_2026-10-30.zip",
@@ -1377,24 +1377,24 @@
     },
     {
       "path": "submission/final_v07_2026-10-30/LolAi_FinalReport_v07.docx",
-      "bytes": 1326201,
+      "bytes": 1327230,
       "encoding": "binary",
-      "sha256": "cf405fa5f7b97df8099db8158ce4663c642de143bef42bb128b0ff22dfa2fdf1",
-      "git_blob_sha": "932651f6047313331523b76b1c11584d2309e746"
+      "sha256": "e97b15c0db0495bae07e8266106d0cb443bfb86c650c3ce31b95d056cf61aa30",
+      "git_blob_sha": "8b379aec3cf95a2e379a593898ee643015f5c9ec"
     },
     {
       "path": "submission/final_v07_2026-10-30/LolAi_FinalReport_v07.pdf",
-      "bytes": 1145764,
+      "bytes": 1162910,
       "encoding": "binary",
-      "sha256": "651314d282b387794e468ba3073f369242174160dce6967dd95628b503b9aedd",
-      "git_blob_sha": "c03dda6dfb809c79b76b8889bc9e3f87a43a07e3"
+      "sha256": "b6eaf05fb59987a5d0586c8160cab13820896bc8404ce6479c3a480a98713c85",
+      "git_blob_sha": "bbdde5f9476d39148fdc3bb4bcbb132f9bf715cd"
     },
     {
       "path": "submission/final_v07_2026-10-30/READ_ME_FIRST.md",
-      "bytes": 3891,
+      "bytes": 3668,
       "encoding": "utf-8",
-      "sha256": "c94a1f2243aeb63edbff68198147e2b55177cf93cd75a082a925de04e57a475d",
-      "git_blob_sha": "7bfadd403dbb17855b927ee66b0347fc2469b035"
+      "sha256": "35169802cd4b4cf73a2a3eca42e6e6b135edae1a6147576cb07006f99ca80c55",
+      "git_blob_sha": "195b0e1b79abfa3ef8c21e6254337347a2eb1823"
     },
     {
       "path": "submission/final_v07_2026-10-30/backend_check_output.txt",
