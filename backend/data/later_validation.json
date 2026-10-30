@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "mode": "retrospective_later_period",
+  "status": "evaluated",
+  "evaluated_at": "2026-10-30T09:12:05.506471+00:00",
+  "plan_created_at": "2026-10-30T08:57:47.513589+00:00",
+  "plan_sha256": "bfae4f00a42a805daa4d01a83c7d610b3b630331c5096e554ab3aca47406fa77",
+  "minimum_matches": 20,
+  "eligible_unique_matches": 35,
+  "blue_wins": 15,
+  "red_wins": 20,
+  "first_match_at": "2026-10-28T10:12:10.261000+00:00",
+  "last_match_at": "2026-10-30T06:35:23.482000+00:00",
+  "model_hashes": {
+    "mlp": "9a64650a4dade3b14c0370c999df8573b36da524cd6a413dee9b492a6cee017e",
+    "logistic": "95e167e41f93f030c49a3ec89d0096da1f86fd7ca0cb074d5680e0981de973e1"
+  },
+  "skipped": {
+    "excluded_or_duplicate": 108,
+    "before_model_freeze": 37,
+    "ineligible": 0
+  },
+  "participant_overlap": {
+    "unique_players": 316,
+    "also_in_original_snapshot": 3
+  },
+  "metrics": {
+    "mlp": {
+      "accuracy": 0.5714285714285714,
+      "brier_score": 0.31948138764338224,
+      "roc_auc": 0.67
+    },
+    "logistic": {
+      "accuracy": 0.8,
+      "brier_score": 0.16885044195208523,
+      "roc_auc": 0.8733333333333333
+    }
+  },
+  "constant_training_prior": {
+    "probability": 0.5783132530120482,
+    "metrics": {
+      "accuracy": 0.42857142857142855,
+      "brier_score": 0.2673205731704788,
+      "roc_auc": 0.5
+    }
+  },
+  "notice": "Fixed models and exclusions saved before this additional collection. Games must postdate both model files. Same-player overlap, convenience sampling and retrospective protocol choice limit independence. No model selection or coaching efficacy claim."
+}

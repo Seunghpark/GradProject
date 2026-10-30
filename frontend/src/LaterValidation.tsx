@@ -1,0 +1,9 @@
+import {useState} from 'react'
+import {useI18n} from './i18n'
+
+type Audit={status:string;eligible_unique_matches?:number;minimum_matches?:number;metrics?:Record<string,{accuracy:number;roc_auc:number|null;brier_score:number}>|null}
+export default function LaterValidation(){
+ const {t}=useI18n(),[report,setReport]=useState<Audit|null>(null),[busy,setBusy]=useState(false),[error,setError]=useState('')
+ async function load(){setBusy(true);setError('');try{const response=await fetch('/api/model-validation');if(!response.ok)throw Error('The request could not be completed.');setReport(await response.json())}catch(failure){setError((failure as Error).message)}finally{setBusy(false)}}
+ return <details><summary>{t('Later-period model audit')}</summary><p>{t('Unchanged models, newly collected games after model creation, and exclusions frozen before collection. This is a retrospective temporal audit, not independent external validation.')}</p><button className="secondary-button" onClick={load} disabled={busy}>{t('Load saved audit')}</button>{error&&<p role="alert">{t(error)}</p>}{report&&<><p>{t('Audit sample: {games}; minimum required: {minimum}.',{games:report.eligible_unique_matches??0,minimum:report.minimum_matches??20})}</p>{report.status==='evaluated'&&report.metrics?Object.entries(report.metrics).map(([name,metrics])=><p key={name}>{name==='mlp'?t('Active MLP'):t('Logistic regression')}: {t('Accuracy')} {(metrics.accuracy*100).toFixed(2)}% · ROC-AUC {metrics.roc_auc?.toFixed(3)??'—'} · Brier {metrics.brier_score.toFixed(4)}</p>):<p>{t('No current validated metrics are available from this audit.')}</p>}</>}<p className="muted">{t('The minimum is a reporting gate, not proof of generalization or coaching benefit. Repeated players and convenience sampling still limit the result.')}</p></details>
+}

@@ -1,0 +1,16 @@
+import {useI18n} from './i18n'
+
+type Metrics={accuracy?:number|null;roc_auc?:number|null;brier_score?:number|null}
+type Comparison={notice:string;train_count:number;test_count:number;active_model_unchanged:boolean;models:{algorithm:string;status:string;metrics?:Metrics;notice?:string}[]}
+const score=(value:number|null|undefined,digits=3,locale='en-US')=>typeof value==='number'&&Number.isFinite(value)?value.toLocaleString(locale,{minimumFractionDigits:digits,maximumFractionDigits:digits,useGrouping:false}):'—'
+const accuracy=(value:number|null|undefined,locale='en-US')=>typeof value==='number'&&Number.isFinite(value)?value.toLocaleString(locale,{style:'percent',minimumFractionDigits:2,maximumFractionDigits:2}):'—'
+const modelName=(algorithm:string)=>({random_forest:'Random forest',logistic_regression:'Logistic regression',xgboost:'XGBoost',constant_baseline:'Constant prior',mlp:'Active MLP'}[algorithm]??algorithm.replaceAll('_',' '))
+
+export default function ModelComparison({comparison}:{comparison:unknown}){
+ const {t,locale}=useI18n()
+ if(!comparison||typeof comparison!=='object')return null
+ const data=comparison as Partial<Comparison>
+ if(typeof data.notice!=='string'||!Array.isArray(data.models))return null
+ const models=data.models.filter(model=>model&&typeof model.algorithm==='string'&&typeof model.status==='string')
+ return <section className="panel model-comparison" aria-label={t('Additional model comparison')}><div className="panel-header"><div><h3>{t('Additional model comparison')}</h3><p>{t('{train} earlier training matches · {test} later holdout matches',{train:Number.isInteger(data.train_count)?data.train_count!.toLocaleString(locale):'—',test:Number.isInteger(data.test_count)?data.test_count!.toLocaleString(locale):'—'})}</p></div><span className="badge neutral">{t('Exploratory')}</span></div><div className="profile-body"><p className="muted">{t(data.notice)}</p><div className="profile-table-scroll" tabIndex={0} role="region" aria-label={t('Exploratory model comparison metrics')}><table className="profile-table"><caption>{t('Same snapshot features and chronological split')}</caption><thead><tr><th scope="col">{t('Model')}</th><th scope="col">{t('Status')}</th><th scope="col">{t('Accuracy')}</th><th scope="col">{t('ROC-AUC')}</th><th scope="col">{t('Brier ↓')}</th></tr></thead><tbody>{models.map(model=><tr key={model.algorithm}><th scope="row">{t(modelName(model.algorithm))}</th><td>{t(model.status.replaceAll('_',' '))}</td><td>{model.status==='evaluated'?accuracy(model.metrics?.accuracy,locale):'—'}</td><td>{model.status==='evaluated'?score(model.metrics?.roc_auc,3,locale):'—'}</td><td>{model.status==='evaluated'?score(model.metrics?.brier_score,3,locale):'—'}</td></tr>)}</tbody></table></div>{models.filter(model=>model.notice).map(model=><p className="small muted" key={model.algorithm}>{t(modelName(model.algorithm))}: {t(model.notice!)}</p>)}{data.active_model_unchanged===true&&<p className="small muted">{t('The serving MLP is unchanged. This comparison does not select a replacement or reproduce the lost historical 1,000-match experiment.')}</p>}<p className="small muted">{t('Accuracy, ranking quality and probability error can favor different models. A result on this small, previously viewed holdout does not establish a winning model or general accuracy.')}</p></div></section>
+}

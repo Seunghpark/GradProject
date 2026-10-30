@@ -1,0 +1,14 @@
+{
+  "status": "insufficient_prospective_data",
+  "eligible_unique_matches": 0,
+  "enrolled_players_observed": 0,
+  "wins": 0,
+  "losses": 0,
+  "minimum_matches": 20,
+  "minimum_players": 3,
+  "metrics": null,
+  "constant_50_percent_baseline": null,
+  "model_sha256": "9a64650a4dade3b14c0370c999df8573b36da524cd6a413dee9b492a6cee017e",
+  "low_elo_definition": "Prospectively enrolled Iron/Bronze/Silver solo-queue player; not an assertion about every player in the lobby.",
+  "notice": "Frozen model; future games only; rank at enrollment valid for 30 days. One record per game. No old match is labeled using a current rank. No coaching benefit or broad low-elo performance established."
+}

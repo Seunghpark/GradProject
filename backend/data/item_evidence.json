@@ -1,0 +1,1233 @@
+{
+  "created_at": "2026-10-30T03:29:54.860267+00:00",
+  "input_sha256": "be988d94be1853b30b35ca6e3f8aaf4305be9a275a353666829e099bfe62368c",
+  "reference_model_sha256": "9a64650a4dade3b14c0370c999df8573b36da524cd6a413dee9b492a6cee017e",
+  "duplicates_removed": 0,
+  "ineligible_records_skipped": 0,
+  "minimum_group_matches": 5,
+  "groups": {
+    "59:JUNGLE:16.21": {
+      "champion": "JarvanIV",
+      "samples": 10,
+      "unique_matches": 10,
+      "items": [
+        {
+          "id": 3047,
+          "count": 5,
+          "frequency": 0.5
+        },
+        {
+          "id": 3071,
+          "count": 4,
+          "frequency": 0.4
+        },
+        {
+          "id": 3111,
+          "count": 4,
+          "frequency": 0.4
+        }
+      ]
+    },
+    "238:MIDDLE:16.21": {
+      "champion": "Zed",
+      "samples": 7,
+      "unique_matches": 7,
+      "items": [
+        {
+          "id": 6696,
+          "count": 5,
+          "frequency": 0.7142857142857143
+        },
+        {
+          "id": 6699,
+          "count": 5,
+          "frequency": 0.7142857142857143
+        },
+        {
+          "id": 3171,
+          "count": 4,
+          "frequency": 0.5714285714285714
+        }
+      ]
+    },
+    "145:BOTTOM:16.21": {
+      "champion": "Kaisa",
+      "samples": 21,
+      "unique_matches": 21,
+      "items": [
+        {
+          "id": 3124,
+          "count": 18,
+          "frequency": 0.8571428571428571
+        },
+        {
+          "id": 1086,
+          "count": 12,
+          "frequency": 0.5714285714285714
+        },
+        {
+          "id": 6672,
+          "count": 12,
+          "frequency": 0.5714285714285714
+        }
+      ]
+    },
+    "58:TOP:16.21": {
+      "champion": "Renekton",
+      "samples": 6,
+      "unique_matches": 6,
+      "items": [
+        {
+          "id": 6692,
+          "count": 6,
+          "frequency": 1.0
+        },
+        {
+          "id": 3071,
+          "count": 5,
+          "frequency": 0.8333333333333334
+        },
+        {
+          "id": 6333,
+          "count": 5,
+          "frequency": 0.8333333333333334
+        }
+      ]
+    },
+    "157:MIDDLE:16.21": {
+      "champion": "Yasuo",
+      "samples": 12,
+      "unique_matches": 12,
+      "items": [
+        {
+          "id": 3172,
+          "count": 12,
+          "frequency": 1.0
+        },
+        {
+          "id": 3153,
+          "count": 11,
+          "frequency": 0.9166666666666666
+        },
+        {
+          "id": 6673,
+          "count": 8,
+          "frequency": 0.6666666666666666
+        }
+      ]
+    },
+    "350:UTILITY:16.21": {
+      "champion": "Yuumi",
+      "samples": 14,
+      "unique_matches": 14,
+      "items": [
+        {
+          "id": 3222,
+          "count": 11,
+          "frequency": 0.7857142857142857
+        },
+        {
+          "id": 3871,
+          "count": 9,
+          "frequency": 0.6428571428571429
+        },
+        {
+          "id": 3114,
+          "count": 4,
+          "frequency": 0.2857142857142857
+        }
+      ]
+    },
+    "54:TOP:16.21": {
+      "champion": "Malphite",
+      "samples": 8,
+      "unique_matches": 8,
+      "items": [
+        {
+          "id": 3047,
+          "count": 5,
+          "frequency": 0.625
+        },
+        {
+          "id": 3068,
+          "count": 5,
+          "frequency": 0.625
+        },
+        {
+          "id": 3075,
+          "count": 4,
+          "frequency": 0.5
+        }
+      ]
+    },
+    "777:MIDDLE:16.21": {
+      "champion": "Yone",
+      "samples": 14,
+      "unique_matches": 14,
+      "items": [
+        {
+          "id": 3172,
+          "count": 13,
+          "frequency": 0.9285714285714286
+        },
+        {
+          "id": 3153,
+          "count": 12,
+          "frequency": 0.8571428571428571
+        },
+        {
+          "id": 6673,
+          "count": 12,
+          "frequency": 0.8571428571428571
+        }
+      ]
+    },
+    "157:TOP:16.21": {
+      "champion": "Yasuo",
+      "samples": 9,
+      "unique_matches": 9,
+      "items": [
+        {
+          "id": 3006,
+          "count": 8,
+          "frequency": 0.8888888888888888
+        },
+        {
+          "id": 3153,
+          "count": 7,
+          "frequency": 0.7777777777777778
+        },
+        {
+          "id": 6673,
+          "count": 6,
+          "frequency": 0.6666666666666666
+        }
+      ]
+    },
+    "5:JUNGLE:16.21": {
+      "champion": "XinZhao",
+      "samples": 6,
+      "unique_matches": 6,
+      "items": [
+        {
+          "id": 3071,
+          "count": 4,
+          "frequency": 0.6666666666666666
+        },
+        {
+          "id": 3748,
+          "count": 4,
+          "frequency": 0.6666666666666666
+        },
+        {
+          "id": 3047,
+          "count": 3,
+          "frequency": 0.5
+        }
+      ]
+    },
+    "517:MIDDLE:16.21": {
+      "champion": "Sylas",
+      "samples": 8,
+      "unique_matches": 8,
+      "items": [
+        {
+          "id": 3152,
+          "count": 8,
+          "frequency": 1.0
+        },
+        {
+          "id": 3175,
+          "count": 7,
+          "frequency": 0.875
+        },
+        {
+          "id": 1056,
+          "count": 5,
+          "frequency": 0.625
+        }
+      ]
+    },
+    "360:BOTTOM:16.21": {
+      "champion": "Samira",
+      "samples": 5,
+      "unique_matches": 5,
+      "items": [
+        {
+          "id": 6676,
+          "count": 5,
+          "frequency": 1.0
+        },
+        {
+          "id": 1055,
+          "count": 4,
+          "frequency": 0.8
+        },
+        {
+          "id": 3031,
+          "count": 2,
+          "frequency": 0.4
+        }
+      ]
+    },
+    "84:MIDDLE:16.21": {
+      "champion": "Akali",
+      "samples": 17,
+      "unique_matches": 17,
+      "items": [
+        {
+          "id": 3146,
+          "count": 14,
+          "frequency": 0.8235294117647058
+        },
+        {
+          "id": 3175,
+          "count": 14,
+          "frequency": 0.8235294117647058
+        },
+        {
+          "id": 4645,
+          "count": 12,
+          "frequency": 0.7058823529411765
+        }
+      ]
+    },
+    "804:BOTTOM:16.21": {
+      "champion": "Yunara",
+      "samples": 6,
+      "unique_matches": 6,
+      "items": [
+        {
+          "id": 6672,
+          "count": 6,
+          "frequency": 1.0
+        },
+        {
+          "id": 3031,
+          "count": 4,
+          "frequency": 0.6666666666666666
+        },
+        {
+          "id": 3085,
+          "count": 4,
+          "frequency": 0.6666666666666666
+        }
+      ]
+    },
+    "147:UTILITY:16.21": {
+      "champion": "Seraphine",
+      "samples": 6,
+      "unique_matches": 6,
+      "items": [
+        {
+          "id": 3158,
+          "count": 5,
+          "frequency": 0.8333333333333334
+        },
+        {
+          "id": 3116,
+          "count": 4,
+          "frequency": 0.6666666666666666
+        },
+        {
+          "id": 3871,
+          "count": 4,
+          "frequency": 0.6666666666666666
+        }
+      ]
+    },
+    "420:TOP:16.21": {
+      "champion": "Illaoi",
+      "samples": 7,
+      "unique_matches": 7,
+      "items": [
+        {
+          "id": 6662,
+          "count": 6,
+          "frequency": 0.8571428571428571
+        },
+        {
+          "id": 3071,
+          "count": 5,
+          "frequency": 0.7142857142857143
+        },
+        {
+          "id": 3047,
+          "count": 4,
+          "frequency": 0.5714285714285714
+        }
+      ]
+    },
+    "711:MIDDLE:16.21": {
+      "champion": "Vex",
+      "samples": 6,
+      "unique_matches": 6,
+      "items": [
+        {
+          "id": 6655,
+          "count": 6,
+          "frequency": 1.0
+        },
+        {
+          "id": 3175,
+          "count": 5,
+          "frequency": 0.8333333333333334
+        },
+        {
+          "id": 4645,
+          "count": 5,
+          "frequency": 0.8333333333333334
+        }
+      ]
+    },
+    "202:BOTTOM:16.21": {
+      "champion": "Jhin",
+      "samples": 18,
+      "unique_matches": 18,
+      "items": [
+        {
+          "id": 6676,
+          "count": 13,
+          "frequency": 0.7222222222222222
+        },
+        {
+          "id": 3031,
+          "count": 12,
+          "frequency": 0.6666666666666666
+        },
+        {
+          "id": 6697,
+          "count": 12,
+          "frequency": 0.6666666666666666
+        }
+      ]
+    },
+    "234:JUNGLE:16.21": {
+      "champion": "Viego",
+      "samples": 10,
+      "unique_matches": 10,
+      "items": [
+        {
+          "id": 6676,
+          "count": 8,
+          "frequency": 0.8
+        },
+        {
+          "id": 6672,
+          "count": 7,
+          "frequency": 0.7
+        },
+        {
+          "id": 3047,
+          "count": 5,
+          "frequency": 0.5
+        }
+      ]
+    },
+    "131:MIDDLE:16.21": {
+      "champion": "Diana",
+      "samples": 5,
+      "unique_matches": 5,
+      "items": [
+        {
+          "id": 3175,
+          "count": 5,
+          "frequency": 1.0
+        },
+        {
+          "id": 3157,
+          "count": 4,
+          "frequency": 0.8
+        },
+        {
+          "id": 4645,
+          "count": 4,
+          "frequency": 0.8
+        }
+      ]
+    },
+    "51:BOTTOM:16.21": {
+      "champion": "Caitlyn",
+      "samples": 10,
+      "unique_matches": 10,
+      "items": [
+        {
+          "id": 3031,
+          "count": 9,
+          "frequency": 0.9
+        },
+        {
+          "id": 1086,
+          "count": 6,
+          "frequency": 0.6
+        },
+        {
+          "id": 2523,
+          "count": 6,
+          "frequency": 0.6
+        }
+      ]
+    },
+    "25:UTILITY:16.21": {
+      "champion": "Morgana",
+      "samples": 10,
+      "unique_matches": 10,
+      "items": [
+        {
+          "id": 3871,
+          "count": 10,
+          "frequency": 1.0
+        },
+        {
+          "id": 3157,
+          "count": 8,
+          "frequency": 0.8
+        },
+        {
+          "id": 3158,
+          "count": 8,
+          "frequency": 0.8
+        }
+      ]
+    },
+    "22:BOTTOM:16.21": {
+      "champion": "Ashe",
+      "samples": 10,
+      "unique_matches": 10,
+      "items": [
+        {
+          "id": 3046,
+          "count": 8,
+          "frequency": 0.8
+        },
+        {
+          "id": 3031,
+          "count": 7,
+          "frequency": 0.7
+        },
+        {
+          "id": 2523,
+          "count": 6,
+          "frequency": 0.6
+        }
+      ]
+    },
+    "53:UTILITY:16.21": {
+      "champion": "Blitzcrank",
+      "samples": 11,
+      "unique_matches": 11,
+      "items": [
+        {
+          "id": 3009,
+          "count": 8,
+          "frequency": 0.7272727272727273
+        },
+        {
+          "id": 3190,
+          "count": 8,
+          "frequency": 0.7272727272727273
+        },
+        {
+          "id": 3869,
+          "count": 7,
+          "frequency": 0.6363636363636364
+        }
+      ]
+    },
+    "24:TOP:16.21": {
+      "champion": "Jax",
+      "samples": 6,
+      "unique_matches": 6,
+      "items": [
+        {
+          "id": 3047,
+          "count": 5,
+          "frequency": 0.8333333333333334
+        },
+        {
+          "id": 3078,
+          "count": 5,
+          "frequency": 0.8333333333333334
+        },
+        {
+          "id": 6610,
+          "count": 3,
+          "frequency": 0.5
+        }
+      ]
+    },
+    "111:UTILITY:16.21": {
+      "champion": "Nautilus",
+      "samples": 12,
+      "unique_matches": 12,
+      "items": [
+        {
+          "id": 3190,
+          "count": 8,
+          "frequency": 0.6666666666666666
+        },
+        {
+          "id": 3047,
+          "count": 6,
+          "frequency": 0.5
+        },
+        {
+          "id": 3109,
+          "count": 5,
+          "frequency": 0.4166666666666667
+        }
+      ]
+    },
+    "875:TOP:16.21": {
+      "champion": "Sett",
+      "samples": 9,
+      "unique_matches": 9,
+      "items": [
+        {
+          "id": 3047,
+          "count": 8,
+          "frequency": 0.8888888888888888
+        },
+        {
+          "id": 6631,
+          "count": 6,
+          "frequency": 0.6666666666666666
+        },
+        {
+          "id": 1055,
+          "count": 5,
+          "frequency": 0.5555555555555556
+        }
+      ]
+    },
+    "64:JUNGLE:16.21": {
+      "champion": "LeeSin",
+      "samples": 13,
+      "unique_matches": 13,
+      "items": [
+        {
+          "id": 6692,
+          "count": 10,
+          "frequency": 0.7692307692307693
+        },
+        {
+          "id": 3047,
+          "count": 8,
+          "frequency": 0.6153846153846154
+        },
+        {
+          "id": 2055,
+          "count": 7,
+          "frequency": 0.5384615384615384
+        }
+      ]
+    },
+    "99:UTILITY:16.21": {
+      "champion": "Lux",
+      "samples": 15,
+      "unique_matches": 15,
+      "items": [
+        {
+          "id": 3871,
+          "count": 14,
+          "frequency": 0.9333333333333333
+        },
+        {
+          "id": 3020,
+          "count": 13,
+          "frequency": 0.8666666666666667
+        },
+        {
+          "id": 6655,
+          "count": 13,
+          "frequency": 0.8666666666666667
+        }
+      ]
+    },
+    "56:JUNGLE:16.21": {
+      "champion": "Nocturne",
+      "samples": 6,
+      "unique_matches": 6,
+      "items": [
+        {
+          "id": 6698,
+          "count": 6,
+          "frequency": 1.0
+        },
+        {
+          "id": 6696,
+          "count": 5,
+          "frequency": 0.8333333333333334
+        },
+        {
+          "id": 1036,
+          "count": 3,
+          "frequency": 0.5
+        }
+      ]
+    },
+    "19:JUNGLE:16.21": {
+      "champion": "Warwick",
+      "samples": 7,
+      "unique_matches": 7,
+      "items": [
+        {
+          "id": 3153,
+          "count": 6,
+          "frequency": 0.8571428571428571
+        },
+        {
+          "id": 6631,
+          "count": 4,
+          "frequency": 0.5714285714285714
+        },
+        {
+          "id": 3065,
+          "count": 3,
+          "frequency": 0.42857142857142855
+        }
+      ]
+    },
+    "7:MIDDLE:16.21": {
+      "champion": "Leblanc",
+      "samples": 5,
+      "unique_matches": 5,
+      "items": [
+        {
+          "id": 3175,
+          "count": 5,
+          "frequency": 1.0
+        },
+        {
+          "id": 4645,
+          "count": 5,
+          "frequency": 1.0
+        },
+        {
+          "id": 6655,
+          "count": 5,
+          "frequency": 1.0
+        }
+      ]
+    },
+    "21:BOTTOM:16.21": {
+      "champion": "MissFortune",
+      "samples": 14,
+      "unique_matches": 14,
+      "items": [
+        {
+          "id": 6676,
+          "count": 12,
+          "frequency": 0.8571428571428571
+        },
+        {
+          "id": 3031,
+          "count": 11,
+          "frequency": 0.7857142857142857
+        },
+        {
+          "id": 3072,
+          "count": 9,
+          "frequency": 0.6428571428571429
+        }
+      ]
+    },
+    "222:BOTTOM:16.21": {
+      "champion": "Jinx",
+      "samples": 7,
+      "unique_matches": 7,
+      "items": [
+        {
+          "id": 2523,
+          "count": 5,
+          "frequency": 0.7142857142857143
+        },
+        {
+          "id": 3085,
+          "count": 5,
+          "frequency": 0.7142857142857143
+        },
+        {
+          "id": 1086,
+          "count": 4,
+          "frequency": 0.5714285714285714
+        }
+      ]
+    },
+    "876:JUNGLE:16.21": {
+      "champion": "Lillia",
+      "samples": 7,
+      "unique_matches": 7,
+      "items": [
+        {
+          "id": 6653,
+          "count": 7,
+          "frequency": 1.0
+        },
+        {
+          "id": 4633,
+          "count": 6,
+          "frequency": 0.8571428571428571
+        },
+        {
+          "id": 3157,
+          "count": 5,
+          "frequency": 0.7142857142857143
+        }
+      ]
+    },
+    "31:JUNGLE:16.21": {
+      "champion": "Chogath",
+      "samples": 5,
+      "unique_matches": 5,
+      "items": [
+        {
+          "id": 3084,
+          "count": 5,
+          "frequency": 1.0
+        },
+        {
+          "id": 3742,
+          "count": 3,
+          "frequency": 0.6
+        },
+        {
+          "id": 4401,
+          "count": 3,
+          "frequency": 0.6
+        }
+      ]
+    },
+    "50:UTILITY:16.21": {
+      "champion": "Swain",
+      "samples": 5,
+      "unique_matches": 5,
+      "items": [
+        {
+          "id": 3116,
+          "count": 3,
+          "frequency": 0.6
+        },
+        {
+          "id": 1052,
+          "count": 2,
+          "frequency": 0.4
+        },
+        {
+          "id": 3020,
+          "count": 2,
+          "frequency": 0.4
+        }
+      ]
+    },
+    "84:TOP:16.21": {
+      "champion": "Akali",
+      "samples": 7,
+      "unique_matches": 7,
+      "items": [
+        {
+          "id": 3020,
+          "count": 6,
+          "frequency": 0.8571428571428571
+        },
+        {
+          "id": 3146,
+          "count": 6,
+          "frequency": 0.8571428571428571
+        },
+        {
+          "id": 4645,
+          "count": 4,
+          "frequency": 0.5714285714285714
+        }
+      ]
+    },
+    "777:TOP:16.21": {
+      "champion": "Yone",
+      "samples": 12,
+      "unique_matches": 12,
+      "items": [
+        {
+          "id": 3006,
+          "count": 11,
+          "frequency": 0.9166666666666666
+        },
+        {
+          "id": 3153,
+          "count": 10,
+          "frequency": 0.8333333333333334
+        },
+        {
+          "id": 6673,
+          "count": 8,
+          "frequency": 0.6666666666666666
+        }
+      ]
+    },
+    "141:JUNGLE:16.21": {
+      "champion": "Kayn",
+      "samples": 8,
+      "unique_matches": 8,
+      "items": [
+        {
+          "id": 6699,
+          "count": 7,
+          "frequency": 0.875
+        },
+        {
+          "id": 3158,
+          "count": 5,
+          "frequency": 0.625
+        },
+        {
+          "id": 6694,
+          "count": 4,
+          "frequency": 0.5
+        }
+      ]
+    },
+    "122:TOP:16.21": {
+      "champion": "Darius",
+      "samples": 7,
+      "unique_matches": 7,
+      "items": [
+        {
+          "id": 3161,
+          "count": 4,
+          "frequency": 0.5714285714285714
+        },
+        {
+          "id": 3742,
+          "count": 4,
+          "frequency": 0.5714285714285714
+        },
+        {
+          "id": 3009,
+          "count": 3,
+          "frequency": 0.42857142857142855
+        }
+      ]
+    },
+    "555:UTILITY:16.21": {
+      "champion": "Pyke",
+      "samples": 7,
+      "unique_matches": 7,
+      "items": [
+        {
+          "id": 3179,
+          "count": 6,
+          "frequency": 0.8571428571428571
+        },
+        {
+          "id": 3009,
+          "count": 4,
+          "frequency": 0.5714285714285714
+        },
+        {
+          "id": 6696,
+          "count": 4,
+          "frequency": 0.5714285714285714
+        }
+      ]
+    },
+    "236:BOTTOM:16.21": {
+      "champion": "Lucian",
+      "samples": 5,
+      "unique_matches": 5,
+      "items": [
+        {
+          "id": 3508,
+          "count": 5,
+          "frequency": 1.0
+        },
+        {
+          "id": 6675,
+          "count": 4,
+          "frequency": 0.8
+        },
+        {
+          "id": 1086,
+          "count": 3,
+          "frequency": 0.6
+        }
+      ]
+    },
+    "18:BOTTOM:16.21": {
+      "champion": "Tristana",
+      "samples": 7,
+      "unique_matches": 7,
+      "items": [
+        {
+          "id": 3031,
+          "count": 5,
+          "frequency": 0.7142857142857143
+        },
+        {
+          "id": 6675,
+          "count": 5,
+          "frequency": 0.7142857142857143
+        },
+        {
+          "id": 1086,
+          "count": 4,
+          "frequency": 0.5714285714285714
+        }
+      ]
+    },
+    "233:JUNGLE:16.21": {
+      "champion": "Briar",
+      "samples": 7,
+      "unique_matches": 7,
+      "items": [
+        {
+          "id": 6676,
+          "count": 6,
+          "frequency": 0.8571428571428571
+        },
+        {
+          "id": 3047,
+          "count": 4,
+          "frequency": 0.5714285714285714
+        },
+        {
+          "id": 6333,
+          "count": 3,
+          "frequency": 0.42857142857142855
+        }
+      ]
+    },
+    "81:BOTTOM:16.21": {
+      "champion": "Ezreal",
+      "samples": 8,
+      "unique_matches": 8,
+      "items": [
+        {
+          "id": 3042,
+          "count": 7,
+          "frequency": 0.875
+        },
+        {
+          "id": 3078,
+          "count": 7,
+          "frequency": 0.875
+        },
+        {
+          "id": 3161,
+          "count": 5,
+          "frequency": 0.625
+        }
+      ]
+    },
+    "110:BOTTOM:16.21": {
+      "champion": "Varus",
+      "samples": 7,
+      "unique_matches": 7,
+      "items": [
+        {
+          "id": 3087,
+          "count": 6,
+          "frequency": 0.8571428571428571
+        },
+        {
+          "id": 3124,
+          "count": 6,
+          "frequency": 0.8571428571428571
+        },
+        {
+          "id": 3153,
+          "count": 5,
+          "frequency": 0.7142857142857143
+        }
+      ]
+    },
+    "62:JUNGLE:16.21": {
+      "champion": "MonkeyKing",
+      "samples": 7,
+      "unique_matches": 7,
+      "items": [
+        {
+          "id": 3078,
+          "count": 7,
+          "frequency": 1.0
+        },
+        {
+          "id": 3071,
+          "count": 6,
+          "frequency": 0.8571428571428571
+        },
+        {
+          "id": 3047,
+          "count": 5,
+          "frequency": 0.7142857142857143
+        }
+      ]
+    },
+    "17:TOP:16.21": {
+      "champion": "Teemo",
+      "samples": 7,
+      "unique_matches": 7,
+      "items": [
+        {
+          "id": 3087,
+          "count": 7,
+          "frequency": 1.0
+        },
+        {
+          "id": 6653,
+          "count": 6,
+          "frequency": 0.8571428571428571
+        },
+        {
+          "id": 3118,
+          "count": 4,
+          "frequency": 0.5714285714285714
+        }
+      ]
+    },
+    "517:JUNGLE:16.21": {
+      "champion": "Sylas",
+      "samples": 10,
+      "unique_matches": 10,
+      "items": [
+        {
+          "id": 3152,
+          "count": 9,
+          "frequency": 0.9
+        },
+        {
+          "id": 3020,
+          "count": 7,
+          "frequency": 0.7
+        },
+        {
+          "id": 3157,
+          "count": 4,
+          "frequency": 0.4
+        }
+      ]
+    },
+    "103:MIDDLE:16.21": {
+      "champion": "Ahri",
+      "samples": 7,
+      "unique_matches": 7,
+      "items": [
+        {
+          "id": 3175,
+          "count": 6,
+          "frequency": 0.8571428571428571
+        },
+        {
+          "id": 3118,
+          "count": 5,
+          "frequency": 0.7142857142857143
+        },
+        {
+          "id": 4645,
+          "count": 5,
+          "frequency": 0.7142857142857143
+        }
+      ]
+    },
+    "104:JUNGLE:16.21": {
+      "champion": "Graves",
+      "samples": 5,
+      "unique_matches": 5,
+      "items": [
+        {
+          "id": 6676,
+          "count": 5,
+          "frequency": 1.0
+        },
+        {
+          "id": 6697,
+          "count": 3,
+          "frequency": 0.6
+        },
+        {
+          "id": 2019,
+          "count": 2,
+          "frequency": 0.4
+        }
+      ]
+    },
+    "80:TOP:16.21": {
+      "champion": "Pantheon",
+      "samples": 5,
+      "unique_matches": 5,
+      "items": [
+        {
+          "id": 3047,
+          "count": 5,
+          "frequency": 1.0
+        },
+        {
+          "id": 1055,
+          "count": 3,
+          "frequency": 0.6
+        },
+        {
+          "id": 2520,
+          "count": 3,
+          "frequency": 0.6
+        }
+      ]
+    },
+    "11:JUNGLE:16.21": {
+      "champion": "MasterYi",
+      "samples": 5,
+      "unique_matches": 5,
+      "items": [
+        {
+          "id": 3006,
+          "count": 5,
+          "frequency": 1.0
+        },
+        {
+          "id": 6672,
+          "count": 4,
+          "frequency": 0.8
+        },
+        {
+          "id": 3124,
+          "count": 3,
+          "frequency": 0.6
+        }
+      ]
+    },
+    "157:BOTTOM:16.21": {
+      "champion": "Yasuo",
+      "samples": 9,
+      "unique_matches": 9,
+      "items": [
+        {
+          "id": 6673,
+          "count": 8,
+          "frequency": 0.8888888888888888
+        },
+        {
+          "id": 3031,
+          "count": 7,
+          "frequency": 0.7777777777777778
+        },
+        {
+          "id": 1086,
+          "count": 5,
+          "frequency": 0.5555555555555556
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "status": "exploratory_item_choice_coverage",
+    "train_matches": 83,
+    "holdout_matches": 21,
+    "holdout_player_rows": 210,
+    "covered_player_rows": 95,
+    "covered_matches": 21,
+    "coverage": 0.4523809523809524,
+    "candidate_precision_at_3": 0.5940287226001512,
+    "global_baseline_precision_at_3": 0.12437641723356009,
+    "validated_win_improvement": false,
+    "notice": "Final inventory frequencies, not purchase order or causal item advice. Same champion/role/patch; groups need five training matches. Already-viewed holdout; participants overlap. Metrics describe item-choice coverage only."
+  }
+}

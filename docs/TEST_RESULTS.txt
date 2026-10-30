@@ -1,0 +1,51 @@
+Current version 0.2.0 verification (2026-10-30, Asia/Seoul):
+Evidence: user-provided final output from the normal Cursor PowerShell terminal.
+Command from workspace parent: .\GradProject\check.cmd
+135 passed, 1 warning, 6 subtests passed in 12.78s.
+Warning: StarletteDeprecationWarning about the httpx/httpx2 TestClient interface.
+The warning did not fail the run. No dependency change was made for it.
+This is the complete current suite, including mocked API/collector cases.
+Earlier focused agent-shell run: 108 passed, six subtests passed in 5.76s.
+Separate frontend checks: 13 passed; TypeScript and Vite production build passed.
+Version 0.2.0 live-browser verification: profiles, current Riot rank/mastery,
+historical probability timeline, sensitivity, actual YouTube retrieval and export.
+All ten main and 110 temporal probabilities in the live export reproduced from
+installed artifacts and cached genuine records; active evaluation unchanged.
+Passing software tests does not establish predictive quality or effective coaching.
+The original-MVP and earlier checkpoints follow; do not add them to this count.
+
+Historical original-MVP deep-learning verification (2026-10-29, Asia/Seoul):
+Evidence: user-provided normal Cursor check.cmd screenshot.
+44 passed, 1 warning, 6 subtests passed in 40.93s.
+Collected cases: 25 API, 2 collector, 17 ML; six malformed-model subtests.
+Warning: StarletteDeprecationWarning about the httpx/httpx2 TestClient interface.
+Separate frontend resource-helper tests: 3 passed; TypeScript/Vite build passed.
+Restarted browser verification: trained neural model, live Molybdite#KR1 lookup,
+ten finite neural probabilities and actual JSON download verified.
+Exported evaluation exactly matched the installed model report.
+API/collector unit tests mock Riot; browser live verification is separate evidence.
+These checks validate execution, not prediction quality. Neural holdout: 10/21 correct.
+See QA_RESULTS.md for evidence, historical attempts and remaining limits.
+
+Historical deep-learning extension checkpoint (2026-10-28):
+17 model tests passed, 6 subtests passed in 4.99s (agent shell).
+44 total tests collected in 0.59s; full execution was pending at that checkpoint.
+TypeScript/production frontend build passed after neural comparison display changes.
+Genuine offline ten-match neural-analysis smoke check passed.
+
+Historical pre-neural whole-suite result follows; it does not certify the newly added cases.
+
+LolAi.gg automated verification
+Date: 2026-10-28 (Asia/Seoul)
+Evidence: user-provided output from the normal Cursor PowerShell terminal.
+Working directory: parent workspace of GradProject
+Command: .\GradProject\check.cmd
+
+39 passed, 1 warning in 5.88s
+
+Collected cases: 25 API, 2 collector, 12 ML.
+Warning: StarletteDeprecationWarning about TestClient using httpx.
+The warning did not fail the run. No dependency change was made for it.
+
+This result supersedes the restricted agent-shell full-suite timeout.
+It is not evidence of clean-machine installation or complete browser/device testing.

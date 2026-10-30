@@ -1,0 +1,25 @@
+{
+  "minimum_reference_matches": 30,
+  "minimum_reference_players": 10,
+  "minimum_champion_matches": 50,
+  "minimum_recent_games": 3,
+  "recent_games": 10,
+  "recency_decay": 0.85,
+  "target_percentile": 50,
+  "rank_observation_max_days": 30,
+  "weighting": "equal_descriptive",
+  "fallback_thresholds": {},
+  "metrics": {
+    "cs_per_min": {"higher_is_better": true, "exclude_roles": ["UTILITY"]},
+    "early_cs": {"higher_is_better": true, "exclude_roles": ["UTILITY"]},
+    "gold_diff_10": {"higher_is_better": true},
+    "gold_diff_15": {"higher_is_better": true},
+    "kill_participation": {"higher_is_better": true},
+    "damage_share": {"higher_is_better": true, "exclude_roles": ["UTILITY"]},
+    "vision_per_min": {"higher_is_better": true},
+    "wards_placed_per_min": {"higher_is_better": true},
+    "wards_cleared_per_min": {"higher_is_better": true},
+    "deaths_before_14": {"higher_is_better": false},
+    "objective_participation": {"higher_is_better": true}
+  }
+}

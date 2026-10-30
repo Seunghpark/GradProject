@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-30T00:11:48.905960+00:00",
+  "data_source": "riot",
+  "synthetic_demo_only": false,
+  "notice": "Exploratory comparison on the already-viewed, unchanged holdout. RF/XGBoost parameters were chosen after that holdout had been seen, without tuning them on its results. This is not fresh independent validation and does not select or replace the active MLP. The lost historical 1,000-match results are not reproduced by this experiment.",
+  "input_sha256": "be988d94be1853b30b35ca6e3f8aaf4305be9a275a353666829e099bfe62368c",
+  "reference_model_sha256": "9a64650a4dade3b14c0370c999df8573b36da524cd6a413dee9b492a6cee017e",
+  "duplicates_removed": 0,
+  "ineligible_records_skipped": 0,
+  "feature_names": [
+    "gold_diff",
+    "xp_diff",
+    "cs_diff",
+    "kills_diff",
+    "towers_diff",
+    "dragons_diff"
+  ],
+  "train": {
+    "count": 83,
+    "blue_wins": 48,
+    "red_wins": 35,
+    "first_match_at": "2026-10-20T07:44:29.137000+00:00",
+    "last_match_at": "2026-10-26T02:46:23.734000+00:00",
+    "match_ids": [
+      "KR_8426212414",
+      "KR_8427848750",
+      "KR_8427919342",
+      "KR_8427941742",
+      "KR_8427976060",
+      "KR_8428316204",
+      "KR_8428331924",
+      "KR_8428364000",
+      "KR_8428423073",
+      "KR_8428439733",
+      "KR_8428563466",
+      "KR_8428627329",
+      "KR_8428692331",
+      "KR_8428939311",
+      "KR_8428969631",
+      "KR_8429014933",
+      "KR_8429050569",
+      "KR_8429189053",
+      "KR_8429192102",
+      "KR_8429492145",
+      "KR_8429498919",
+      "KR_8429543539",
+      "KR_8429549680",
+      "KR_8429571399",
+      "KR_8429604315",
+      "KR_8429622791",
+      "KR_8429658522",
+      "KR_8430460161",
+      "KR_8430457831",
+      "KR_8430490050",
+      "KR_8430842245",
+      "KR_8430896382",
+      "KR_8431094048",
+      "KR_8431102692",
+      "KR_8431161004",
+      "KR_8431217309",
+      "KR_8431259688",
+      "KR_8431326225",
+      "KR_8431324710",
+      "KR_8431392421",
+      "KR_8431415098",
+      "KR_8431427348",
+      "KR_8431443576",
+      "KR_8431505570",
+      "KR_8431525105",
+      "KR_8431518682",
+      "KR_8431558708",
+      "KR_8431565822",
+      "KR_8431641271",
+      "KR_8431650766",
+      "KR_8431700852",
+      "KR_8431775430",
+      "KR_8431857390",
+      "KR_8431914292",
+      "KR_8431961984",
+      "KR_8432007398",
+      "KR_8432024733",
+      "KR_8432031849",
+      "KR_8432054908",
+      "KR_8432075042",
+      "KR_8432078535",
+      "KR_8432068935",
+      "KR_8432070980",
+      "KR_8432097175",
+      "KR_8432088566",
+      "KR_8432086850",
+      "KR_8432096583",
+      "KR_8432107430",
+      "KR_8432101888",
+      "KR_8432129264",
+      "KR_8432573318",
+      "KR_8432630571",
+      "KR_8432705798",
+      "KR_8433142325",
+      "KR_8433330601",
+      "KR_8433341775",
+      "KR_8433373055",
+      "KR_8433404672",
+      "KR_8433440575",
+      "KR_8433472431",
+      "KR_8433533249",
+      "KR_8433709767",
+      "KR_8433727876"
+    ],
+    "patches": [
+      "16.20.824.8524",
+      "16.21.829.8620"
+    ],
+    "queues": [
+      420
+    ]
+  },
+  "test": {
+    "count": 21,
+    "blue_wins": 10,
+    "red_wins": 11,
+    "first_match_at": "2026-10-26T03:28:18.290000+00:00",
+    "last_match_at": "2026-10-28T04:42:16.949000+00:00",
+    "match_ids": [
+      "KR_8433743731",
+      "KR_8433769846",
+      "KR_8434095520",
+      "KR_8434154073",
+      "KR_8434182869",
+      "KR_8434351772",
+      "KR_8434368200",
+      "KR_8434505699",
+      "KR_8434774848",
+      "KR_8434787756",
+      "KR_8434895112",
+      "KR_8435717088",
+      "KR_8435763572",
+      "KR_8435778637",
+      "KR_8435794682",
+      "KR_8435810658",
+      "KR_8435833261",
+      "KR_8435948726",
+      "KR_8436008124",
+      "KR_8436003846",
+      "KR_8436027250"
+    ],
+    "patches": [
+      "16.21.829.8620"
+    ],
+    "queues": [
+      420
+    ]
+  },
+  "scaler_fit": "training partition only; matches reference",
+  "selection": "unchanged reference match IDs; one blue-side row per unique match",
+  "models": {
+    "xgboost": {
+      "status": "unavailable",
+      "notice": "XGBoost is not installed in this Python environment; no dependency was installed."
+    },
+    "logistic_regression": {
+      "status": "evaluated",
+      "parameters": {
+        "C": 1.0,
+        "max_iter": 2000,
+        "random_state": 42
+      },
+      "metrics": {
+        "accuracy": 0.5714285714285714,
+        "brier_score": 0.2635612846431253,
+        "roc_auc": 0.6090909090909091
+      },
+      "training_metrics": {
+        "accuracy": 0.6626506024096386,
+        "brier_score": 0.18738594979553996,
+        "roc_auc": 0.7720238095238096
+      },
+      "warnings": []
+    },
+    "random_forest": {
+      "status": "evaluated",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 5,
+        "min_samples_leaf": 3,
+        "random_state": 42,
+        "n_jobs": 1
+      },
+      "metrics": {
+        "accuracy": 0.6666666666666666,
+        "brier_score": 0.26068146951813426,
+        "roc_auc": 0.5909090909090909
+      },
+      "training_metrics": {
+        "accuracy": 0.8674698795180723,
+        "brier_score": 0.12504267780259684,
+        "roc_auc": 0.944047619047619
+      },
+      "warnings": []
+    }
+  },
+  "constant_baseline": {
+    "accuracy": 0.47619047619047616,
+    "brier_score": 0.25986216812171237,
+    "roc_auc": 0.5
+  },
+  "active_model_reference": {
+    "algorithm": "mlp",
+    "status": "unchanged; recorded reference metrics only",
+    "metrics": {
+      "accuracy": 0.47619047619047616,
+      "brier_score": 0.3726828054066416,
+      "roc_auc": 0.4909090909090909
+    }
+  },
+  "libraries": {
+    "numpy": "2.5.4",
+    "scikit_learn": "1.9.1"
+  }
+}

@@ -1,0 +1,14 @@
+LolAi.gg backend 0.3.0 - full-suite receipt
+Date: 2026-10-30, Asia/Seoul
+Source: user's pasted output from a normal Cursor PowerShell terminal.
+Command: GradProject/check.cmd
+
+154 passed, 1 warning, 6 subtests passed in 26.75s
+
+Warning: StarletteDeprecationWarning: Using `httpx` with
+`starlette.testclient` is deprecated; install `httpx2` instead.
+
+All tests passed. The warning is nonblocking; no dependency changes were made.
+This software-check result does not establish recommendation/coaching benefit,
+prospective low-elo performance, verified peer feedback or actual-game telemetry.
+The preserved Research_Tools ZIP predates this receipt and remains unchanged.
