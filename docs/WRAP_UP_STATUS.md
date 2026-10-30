@@ -53,7 +53,7 @@ The private collection is now 187 genuine matches after the live lookups. It is 
 ## Package and GitHub
 
 - Package: `submission/LolAi_Final_Package_v07_2026-10-30.zip`, built from commit `3e10fb3`. The ZIP's SHA-256 is in the commit that adds it.
-- GitHub: the push of this work was refused with 403. The saved token can read the repository but cannot write to it. The commits exist locally until the push succeeds.
+- GitHub: published through the owner's browser sign-in. Commits `3e10fb3` and `278ae9f` are on `main`. The saved plugin token was refused for writing, so the GitHub plugin may remain read-only.
 
 ## Remaining human gates
 

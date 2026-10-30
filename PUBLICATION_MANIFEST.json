@@ -866,10 +866,10 @@
     },
     {
       "path": "docs/WRAP_UP_STATUS.md",
-      "bytes": 5477,
+      "bytes": 5503,
       "encoding": "utf-8",
-      "sha256": "81fcff882650202170698aacf24c4988a8ec390db3d4e6b82cf39ad90c131819",
-      "git_blob_sha": "f416c0a323098291cf535237023d046f5b883bee"
+      "sha256": "7e48a9549f0e7972fc1b6605c061007b06d8c5aea17512712d1d39e6aec56fe9",
+      "git_blob_sha": "ec0590a5b3ecd24c2a698f4c27af941d50bc7300"
     },
     {
       "path": "docs/screenshots/learning-resources.png",
