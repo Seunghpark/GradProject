@@ -29,7 +29,7 @@ Display up to three positive priorities, in descending order with deterministic 
 - Missing values remain missing. Do not turn absent timelines, ward counts or objective assists into invented observations.
 - The configured fallback-threshold dictionary is empty. No purported universal Gold, low-elo or coaching threshold is silently substituted.
 
-The current reference artifact has 104 unique Riot matches / 1,040 player-match rows and **zero tier-labeled rows**. Repeated players, convenience sampling and limited patches prevent interpreting its percentiles as server-wide rankings. References can be earlier or later than a reviewed match; this is retrospective review, and no tip statistic enters the historical prediction model.
+The initial frozen reference artifact contained 104 unique Riot matches / 1,040 player-match rows and **zero tier-labeled rows**. Runtime references can refresh from the separate genuine match store; they do not change the frozen model experiment. Repeated players, convenience sampling and limited patches prevent interpreting its percentiles as server-wide rankings. References can be earlier or later than a reviewed match; this is retrospective review, and no tip statistic enters the historical prediction model.
 
 ## Metrics and their limits
 
@@ -72,5 +72,5 @@ reference-player counts and reviewed-metric coverage; they do not claim formal
 statistical certainty. Equal descriptive weights remain unchanged. Persistent
 same-role/patch/queue practice targets now measure the first three later stored
 games against a frozen 3–10-game baseline, with no causal efficacy claim. See
-[the completion record](COMPLETION_2026-10-30.md).
+[the validation record](VALIDATION.md).
 

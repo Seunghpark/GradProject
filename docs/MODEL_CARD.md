@@ -1,51 +1,105 @@
-# LolAi.gg historical model card
+# Historical match-prediction model card
 
-## Current required deep model
+## Scope
 
-The user confirmed deep learning is mandatory on 2026-10-28. The installed local model is now a genuine three-hidden-layer feedforward network: 6 inputs -> 16 ReLU -> 8 ReLU -> 4 ReLU -> 1 sigmoid, with 289 learned parameters. Training uses the existing scikit-learn MLPClassifier; serving uses bounded plain JSON and a standard-library forward pass. The preserved logistic artifact is a comparison baseline, not the deep model.
+Estimate eventual blue-team victory from an early snapshot of a completed
+ranked Summoner's Rift match. Red-team displays use the complementary value.
+This is retrospective analysis, not a pre-match forecast, skill-tier estimate,
+live coach or causal recommendation.
 
-Both use the same unchanged 104 genuine matches, 83 earlier training / 21 later evaluation, with train-only scaling. MLP evaluation: accuracy 47.62%, AUC 0.49091, Brier 0.37268; logistic: 57.14%, 0.60909, 0.26356; constant-prior Brier 0.25986. The neural model is worse in this pilot. Neural training accuracy 95.18% is an in-sample diagnostic; its gap from evaluation is consistent with overfitting. The previously viewed holdout is an exploratory comparison, not independent validation.
+## Implementation and inputs
 
-See [deep-learning results](DEEP_LEARNING_RESULTS.md) for fixed optimizer settings, convergence, safe serving, exact metrics and limitations. The earlier [logistic experiment](REAL_MODEL_RESULTS.md) is preserved. A fresh setup creates a labeled synthetic MLP, not this private genuine snapshot. Earlier uploads are samples per the user and supply no final submission evidence. The confirmed final deadline is October 30 at 23:59; see SUBMISSION_REQUIREMENTS.md.
+The active feedforward MLP has six standardized inputs, ReLU hidden layers
+16–8–4 and one sigmoid output: 6→16→8→4→1, 289 parameters. Training uses
+scikit-learn `MLPClassifier`; serving validates plain JSON parameters and uses a
+standard-library forward pass. No executable pickle is loaded.
 
-## Research question
+Fixed training settings: L-BFGS, alpha=1, random_state=42, max_iter=2000,
+max_fun=20000, tol=1e-6, no early stopping. The architecture/settings were not
+swept to maximize the observed holdout. Original training converged at 1062
+iterations. Train-only scaling is shared with the logistic comparison.
 
-Given observations available by minute 10 of a completed ranked Summoner's Rift match, estimate the eventual probability of a blue-team victory. The UI reverses that probability for a red-team player. This is retrospective analysis, not live coaching, a pre-match forecast, an MMR estimate, or causal advice.
+Features are blue-minus-red gold, XP, lane+jungle CS, champion kills, towers and
+dragons through the latest complete participant frame in [540000,600000] ms.
+Actual original frames are approximately 540.09 seconds. Final KDA, damage,
+gold, future events and winner labels do not enter these historical inputs.
+Winner is used as the supervised target only. Full-match review is a separate
+retrospective calculation.
 
-## Data and features
+Eligibility requires map 11, ranked queue 420 or 440, duration over ten minutes,
+ten unique participants, five per team, matching match/timeline IDs and a
+complete early frame. Missing/ineligible data produces no prediction.
 
-Input JSONL records have `source` (`riot` or `synthetic`), `match` (raw Match-V5 result), and `timeline` (raw Match-V5 timeline). Match IDs must agree. Eligibility requires map 11, queue 420 or 440, duration greater than ten minutes, exactly ten unique participants with five on each team, and a complete participant frame in [540000, 600000] milliseconds. The latest eligible frame is selected. Thus minute 10 can mean the last observation up to one minute earlier; stale snapshots are rejected.
+## Original experiment
 
-Features are blue-minus-red total gold, total XP, lane plus jungle CS, champion kills, towers destroyed, and dragons killed. Participant/team mappings come from match metadata, not presumed participant numbering. Events are included only through the selected frame timestamp. The building event's `teamId` is its destroyed tower's owner. Final KDA, final gold/damage and winner labels cannot influence feature extraction. Final winner is used only as the supervised target. Unsupported modes, short matches, absent timelines and incomplete snapshots produce no prediction.
+104 unique genuine KR ranked games, October 20–28, 2026, patches 16.20/16.21.
+Collection began from one player and observed participants, so repeated players
+and selection bias limit independence. Chronological split: 83 training games
+(48 blue/35 red wins), 21 later holdout games (10 blue/11 red wins). IDs do not
+overlap, and training games finish before evaluation games begin.
 
-## Shared protocol and logistic baseline
+- MLP holdout: 10/21 correct, accuracy 47.62%, AUC 0.490909, Brier 0.372683.
+- Logistic holdout: 12/21, 57.14%, 0.609091, 0.263561.
+- Constant 48/83 training prior: 10/21, 47.62%, 0.5, 0.259862.
+- Exploratory RF: 14/21, 66.67%, 0.590909, 0.260681; not installed as serving model.
 
-Training requires at least 100 eligible unique matches, with at least 60 earlier training and 20 later test records. One blue-side row per match prevents team-perspective leakage. IDs are deduplicated, then records sorted by game start time. The nominal split is 80% train / 20% holdout; ties at the boundary all stay in holdout. Both outcomes must occur in training. StandardScaler fits training rows only. Logistic regression uses C=1, max_iter=2000, random_state=42; no tuning uses holdout data.
+MLP training accuracy is 95.18%, an in-sample diagnostic consistent with
+overfitting when compared with the weak holdout. The holdout had already been
+viewed for the logistic experiment; subsequent comparisons remain exploratory.
+RF settings were selected after that holdout had been viewed. No XGBoost result
+was produced in this environment. The lost historical 1,000-game/79% result is
+not recovered or reproduced evidence.
 
-The generated `model_evaluation.json` records input SHA-256, eligible/skipped/duplicate counts, train/test match IDs, time ranges, queue and patch coverage, class counts, library versions, accuracy, Brier score and ROC-AUC. The constant baseline uses training-set blue-win prevalence, not test prevalence. AUC is null for single-class holdouts. Results are one temporal holdout, with no external validation or probability-calibration study. The current real collection has player overlap, selection bias, only one platform and two nearby patches. Collect substantially more diverse data than the minimum and obtain independent validation before making generalized claims. Displayed individual matches may overlap training data and must not be counted as extra validation.
+## Separate later-period audit
 
-## Artifacts and provenance
+Before extra collection and performance calculation, model copies/hashes and
+108 prior/reviewed game exclusions were fixed. A 180-game collection snapshot
+excluded those 108 games and 37 games predating model creation, leaving 35 later
+eligible games: 15 blue/20 red wins. Sampling used other participants from one
+seed roster; recruitment expanded from three to nine players before calculating
+performance because the first eight eligible games were below the minimum 20.
 
-`backend/data/model.json` contains plain JSON parameters and provenance; serving needs no sklearn or pickle. Set backend `MODEL_PATH` to choose another artifact. Inference refuses source mismatches: a synthetic artifact cannot emit a probability for a Riot match. Cached Riot responses remain `riot`, never synthetic. Provenance labels are declarative, so verify collection origin before research claims. Missing or invalid model files produce an unavailable result.
+Results dated October 30, 2026, 18:12 KST:
 
-## Reproduce synthetic fixtures
+- Unchanged MLP: 20/35, accuracy 57.14%, AUC 0.67, Brier 0.319481.
+- Unchanged logistic: 28/35, 80.00%, 0.873333, 0.168850.
+- Constant original training prior: 15/35, 42.86%, 0.5, 0.267321.
 
-These commands are for fictional fixtures. They overwrite the default model when no separate --output is supplied; keep the genuine artifact or choose a separate synthetic output path.
+No model was retrained or replaced. The audit is retrospective convenience
+sampling with a retrospectively chosen protocol, not independent external
+validation. It includes repeated-player relationships. Different sample scores
+do not establish an improved model; MLP Brier remains worse than both baselines.
 
-From `backend` after installing requirements:
+## Artifact identity and safe inference
 
-```powershell
-..\.venv\Scripts\python.exe scripts/generate_synthetic_training.py --count 300
-..\.venv\Scripts\python.exe scripts/train_model.py --input data/synthetic_training.jsonl --output data/synthetic_mlp_model.json --algorithm mlp
-..\.venv\Scripts\python.exe -m pytest tests/test_ml.py -q
-```
+- Original private `riot_matches.jsonl` SHA-256:
+  `be988d94be1853b30b35ca6e3f8aaf4305be9a275a353666829e099bfe62368c`.
+- Active `backend/data/model.json` SHA-256:
+  `9a64650a4dade3b14c0370c999df8573b36da524cd6a413dee9b492a6cee017e`.
+- Logistic `backend/data/riot_model.json` SHA-256:
+  `95e167e41f93f030c49a3ec89d0096da1f86fd7ca0cb074d5680e0981de973e1`.
 
-The default seed is 20261026. The generator creates stochastic fictional outcomes from a latent advantage; it tests the pipeline and does not simulate the actual game. All records are explicitly synthetic with fictional IDs and patch labels. The training command prints measured demo metrics and writes the report beside the model. Do not present these as real-game metrics.
+Serving checks finite/bounded values, dimensions, activations, scaling and
+source compatibility. A genuine-only model refuses fictional matches. Cache
+versions include artifact content. Missing/invalid artifacts produce an
+unavailable result. Declared provenance is checked against saved collection
+evidence; a label alone is not independent authentication.
 
-For real data, collect completed match and timeline responses using the official API into the same JSONL shape with source `riot`, inspect coverage, and run the identical CLI with `--input data/riot_matches.jsonl --output data/riot_mlp_model.json --algorithm mlp`. Select it using `MODEL_PATH` after reviewing its evaluation. Never relabel fixtures.
+Published model/aggregate JSON supports inference and inspection. Exact
+retraining requires excluded private raw records and the original protocol.
+Use new explicit output paths for further studies; preserve original datasets,
+weights and viewed-holdout results. The collector's default JSONL output must
+not be used to extend the frozen research snapshot.
 
-## Riot API scope
+## Limits and supporting documentation
 
-The application uses historical Match-V5 data and post-match insights. It does not retrieve live hidden information, dictate ongoing-match decisions or expose custom-queue history. Riot recognizes school projects and historical training tools as use cases; that is not blanket approval of every prediction product. Public live deployment requires appropriate Riot access/registration. See the [LoL documentation](https://developer.riotgames.com/docs/lol) and [developer portal documentation](https://developer.riotgames.com/docs/portal).
+No neural superiority, calibration, causal advice, player improvement,
+low-elo subgroup performance or public-production readiness is established.
+Current rank/mastery is not historical training input. Full-game review metrics
+and tip priorities do not enter the early team model.
 
-Neural implementation references: [scikit-learn guide](https://scikit-learn.org/stable/modules/neural_networks_supervised.html) and [MLPClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html). The exact supported neural architecture is validated, including finite weights, positive scaler scales and adjacent dimensions; malformed or overflowing inputs disable inference.
+See [validation](VALIDATION.md), [temporal models](TEMPORAL_MODELS.md),
+[tip methods](TIPS_ENGINE.md), and the final report for details.
+Implementation references: [scikit-learn neural networks](https://scikit-learn.org/stable/modules/neural_networks_supervised.html),
+[MLPClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html),
+[Riot LoL documentation](https://developer.riotgames.com/docs/lol).

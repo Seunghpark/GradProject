@@ -1,6 +1,6 @@
 # LolAi.gg deep-learning experiment
 
-Date: 2026-10-28, Asia/Seoul. The user confirmed deep learning is mandatory and the final deadline is 2026-10-30 23:59 (Korean time assumed). Earlier uploaded report/presentation files and screenshot upload entries are samples, not evidence of completed work or submission.
+Original 104-game neural experiment, recorded October 28, 2026. This technical evidence supplements the final report. See [current validation](VALIDATION.md) and [the model card](MODEL_CARD.md) for later checks and the separate 35-game audit.
 
 ## Implemented neural network
 

@@ -1,54 +1,38 @@
-# LolAi.gg 최종 제출 후보 v07
+# LolAi.gg final materials
 
-마감: 2026년 10월 30일 23:59 (한국 시각). 아직 학교에 제출되지 않았습니다.
+Title: **LolAi.gg: 딥러닝 기반 리그 오브 레전드 과거 경기 분석 및 승패 예측 시스템**
 
-## 업로드할 파일
+Student: 박승현 (2019310202), 소프트웨어학과 / 소프트웨어융합대학.
+Adviser: 한환수. Track confirmed by the student: 개인 작품.
 
-| 학교 시스템 칸 | 파일 |
-|---|---|
-| 최종보고서 | `LolAi_FinalReport_v07.pdf` |
-| 연구작품 | `submission/LolAi_Final_Package_v07_2026-10-30.zip` |
-| 발표자료 | `소프트웨어학과_박승현(2019310202).pptx` |
-| 학회 발표 증빙 | 논문 트랙인 경우에만 해당합니다. 작품 트랙이면 필요 없습니다. |
+## Files
 
-## 업로드 전 확인 (순서대로)
+- Final report: `LolAi_FinalReport_v07.pdf` (47 pages).
+- Editable report: `LolAi_FinalReport_v07.docx`.
+- Presentation: `소프트웨어학과_박승현(2019310202).pptx` (18 slides).
+- Project/source package: `LolAi_Final_Package_v07_Clean_2026-10-30.zip`.
 
-1. **제목:** 포털에 등록된 제목과 일치함을 학생이 확인했습니다.
-   `LolAi.gg: 딥러닝 기반 리그 오브 레전드 과거 경기 분석 및 승패 예측 시스템`
-2. **형식:** 학교가 PDF를 받는 것을 학생이 확인했습니다.
-3. **인적 사항:** 박승현, 2019310202, 소프트웨어학과, 소프트웨어융합대학, 지도교수 한환수, 개인 작품 여부, 작품/논문 트랙이 맞는지 확인하세요.
-4. **소감:** 학생의 답변을 반영했습니다. 최종본을 한 번 더 읽어 보세요.
-5. **평가·서명:** 지도교수 서명과 점수 칸은 비워 두었습니다. 온라인 서명은 지도교수 절차입니다.
-6. **제출:** 각 파일을 맞는 칸에 올리고, 접수 확인 화면을 캡처해 보관하세요.
+The report and slides are unchanged from the checked v07 academic files. The
+clean package removes internal handoff prompts, conversation notes, old status
+logs and duplicate packages. Application source, model parameters, measured
+results, references and AI-assistance/contribution statements are retained.
 
-## 기여·AI 도움 문구 (검토용 초안)
+## Run and inspect
 
-> 본 작품의 구현, 시험과 문서 작성에는 OpenAI Codex와 Anthropic Claude Code를 사용하였다. 작품의 방향, 기능 범위, 자료 사용 범위와 최종 산출물의 채택은 본인이 결정하였고, 결과는 저장된 시험 기록과 평가 결과로 확인하였다. [본인이 직접 수행한 작업을 구체적으로 적으세요.]
+Open the package's `GradProject` folder, follow `README.md`, run `start.cmd` and
+open http://127.0.0.1:8000. Checks and limitations are in `docs/VALIDATION.md`.
+API keys and dependencies are not included. Never publish local `.env` files.
 
-대괄호 부분은 본인만 쓸 수 있습니다. 학교에 별도 AI 사용 고지 규정이 있으면 그 규정을 따르세요.
+The neural model did not demonstrate superiority. The separate 35-game audit
+is retrospective convenience sampling, not independent external validation.
+Optimal strategy, coaching efficacy and low-elo improvement are unproven.
+Raw private records are excluded, so exact retraining needs separate data.
 
-## 이번 버전에서 바뀐 점
+Implementation, testing and documentation used OpenAI Codex and Anthropic
+Claude Code. The student's reflection and contribution are in the final report.
 
-- 보고서 표지 제목을 PPT와 맞췄습니다.
-- 관련연구에 비교표 하나와 해설을 추가했습니다. 47쪽입니다.
-- 결론에서 제출 절차를 설명하던 문장 하나를 뺐습니다.
-- 개인 소감에 학생의 답변을 반영했습니다. 기존 문단은 그대로 두었습니다.
-- PPT와 프로그램 코드는 바꾸지 않았습니다.
-
-관련연구는 양식의 안내 분량(약 7쪽)보다 짧고, 전체도 안내 분량(약 30쪽)보다 깁니다. 안내 분량을 넘는 것이 탈락 사유인지는 확인되지 않았으니 필요하면 지도교수께 문의하세요.
-
-## 실행과 시연
-
-`GradProject` 폴더에서 `.\start.cmd`를 실행하고 http://127.0.0.1:8000 을 여세요. 서버 창은 닫지 마세요. 시연 순서와 예상 질문은 `docs/DEMO_SCRIPT.md`에 있습니다.
-
-## 자료의 한계
-
-- 공개 패키지에는 원시 JSONL, SQLite, 비공개 메모, API 키, 의존성이 없습니다. 원시 자료가 필요한 실험은 이 패키지만으로 재현할 수 없습니다.
-- 신경망은 어느 표본에서도 우수성을 입증하지 못했습니다. 이 결과를 그대로 보고했습니다.
-- 추가 35경기 평가는 회고적 편의표본이며 독립 외부 검증이 아닙니다.
-- 코칭 효과, 저티어 검증, 실제 게임 연결, 새 컴퓨터 설치는 검증되지 않았습니다.
-- 졸업 기준 충족 여부는 지도교수와 학교가 판단합니다.
-
-## 개인 백업
-
-`GradProject\.private-backups\20261030T134001046635Z` 폴더(검증된 14개 파일)를 USB나 본인만 접근할 수 있는 저장소에 복사하세요. 공개 저장소에 올리면 안 됩니다.
+For school submission use the report PDF, project ZIP and actual PPTX in their
+respective fields. The student confirmed PDF acceptance and the project title.
+Metadata, reflection, adviser procedure and portal confirmation remain the
+student's responsibility. Preparation/publication is not school acceptance or
+proof of upload.

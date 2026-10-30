@@ -5,38 +5,17 @@
   "files": [
     {
       "path": ".gitignore",
-      "bytes": 369,
+      "bytes": 2349,
       "encoding": "utf-8",
-      "sha256": "53edb756e035e86ae494211c936c477f2c0fe407144748dc1fece4612be923af",
-      "git_blob_sha": "fc0c0f556dd7292cc04f65a390f6039622b5f18a"
-    },
-    {
-      "path": "CLAUDE_HANDOFF.md",
-      "bytes": 22797,
-      "encoding": "utf-8",
-      "sha256": "0f8669a70150824e197bd26354dfcc0cb2e2a1e6d889851d84c26bc5c5bef932",
-      "git_blob_sha": "d40fc8af7505bf6718f270f6b9228f5949038924"
-    },
-    {
-      "path": "CLAUDE_MASTER_PROMPT.md",
-      "bytes": 21039,
-      "encoding": "utf-8",
-      "sha256": "f3160765e00c88c3c96db58d3a86842ee2128c2a80e08b0605763fa8a23b4d51",
-      "git_blob_sha": "dd2d53d7dacdef9f8e9da9e2ff43668d171ade5b"
-    },
-    {
-      "path": "CLAUDE_START_PROMPT.txt",
-      "bytes": 2979,
-      "encoding": "utf-8",
-      "sha256": "8c16dd86febe9cb69eded7744666658144573761b375c28991000d65e164eef7",
-      "git_blob_sha": "fe5b0347ff327fe79bc6a0d4059a72b3bcb00c8c"
+      "sha256": "a4a5a7815b5d856d8fd3b4af5e7df130706a78b2abca317ca3ec031cfa50c0a9",
+      "git_blob_sha": "a1f55e8855a0681ee7c22016285b70aa297c751e"
     },
     {
       "path": "README.md",
-      "bytes": 23743,
+      "bytes": 6985,
       "encoding": "utf-8",
-      "sha256": "afb2ed45f045580a3b2d7f77732689c3fea540d0d960db8d5f785e6c854baeb3",
-      "git_blob_sha": "52b31839d5492b5a7300a59dc879b404b34069f8"
+      "sha256": "936ed1cf02400d9cf0a27b1a06353661808f61fb1aec3a7cba508ec1e417891f",
+      "git_blob_sha": "17efad61693b0467042f8c18cda723865ded766e"
     },
     {
       "path": "backend/.env.example",
@@ -606,39 +585,11 @@
       "git_blob_sha": "31a4267138c620844be60d8f8193d5b7e55238b2"
     },
     {
-      "path": "docs/COLLECTION_2026-10-30.md",
-      "bytes": 8205,
-      "encoding": "utf-8",
-      "sha256": "ab080785e47e75351ec5a10e1fa05fb5099b980ac54430aa70ba8f52bd34196a",
-      "git_blob_sha": "2b19930f0297634b16572e434bfbee2f5f5fb18f"
-    },
-    {
-      "path": "docs/COMPLETION_2026-10-30.md",
-      "bytes": 9214,
-      "encoding": "utf-8",
-      "sha256": "192252514e39e06f59a251eba8ff81f3495f533dd2da963573617e11f544676f",
-      "git_blob_sha": "bb1ae7115b1b7170aee69c69bcc0935f8837fe2c"
-    },
-    {
-      "path": "docs/CONVERSATION_DECISIONS.md",
-      "bytes": 6920,
-      "encoding": "utf-8",
-      "sha256": "67d6ac7f4ed9101fafe9740807f3a9c7dd4ad3144e25c40f768f243cac1f0cee",
-      "git_blob_sha": "bffe516a5af7f5201275959d6bd65590936bc009"
-    },
-    {
       "path": "docs/DEEP_LEARNING_RESULTS.md",
-      "bytes": 6982,
+      "bytes": 6951,
       "encoding": "utf-8",
-      "sha256": "b894e8c81bd839d340321c4683f2c8632abb31e78bdaf19e551ce1c5f7184889",
-      "git_blob_sha": "da6be25cce9065cdbece6ce74877e0cdbb0f6d92"
-    },
-    {
-      "path": "docs/DEMO_SCRIPT.md",
-      "bytes": 6542,
-      "encoding": "utf-8",
-      "sha256": "abe50a6b92976ca7c79ea03762a64bc73073de4579b5f14c1df81d0a5979f359",
-      "git_blob_sha": "08362e5062ce9c9d434e774d3e1da827b9b252f5"
+      "sha256": "e94d879c7138f8639433bc8159d305f91c0606e4f71b4803afa24f3ed99e026f",
+      "git_blob_sha": "1fa05718e5983d0e4027a32a5a5645e682a1d3d3"
     },
     {
       "path": "docs/ENGLISH_RELATED_WORK.md",
@@ -646,34 +597,6 @@
       "encoding": "utf-8",
       "sha256": "52941154a8da3e9f9787dbb29fc34d6f946cfee39df3096f49aa6fefb9b2e6d5",
       "git_blob_sha": "032e385a58170f7dbd65cd275050dff065dbd893"
-    },
-    {
-      "path": "docs/EXTERNAL_INTEGRATIONS.md",
-      "bytes": 11585,
-      "encoding": "utf-8",
-      "sha256": "d970b1bf9167cb9c59455c683c262e6414e72a77dadbb70c8e3309b0e603c4c9",
-      "git_blob_sha": "7fe58306e3a4d59b6d267e1c17229e2228dfd326"
-    },
-    {
-      "path": "docs/FEATURE_COVERAGE_AUDIT.md",
-      "bytes": 22928,
-      "encoding": "utf-8",
-      "sha256": "4d1e104f11e897afb9a83c0068411855e9f9c1fbf5b805834bfd0be2ba6066fa",
-      "git_blob_sha": "af37549be19376f941e99eebe1873796496908e9"
-    },
-    {
-      "path": "docs/FEATURE_EXTENSION_2026-10-30.md",
-      "bytes": 10288,
-      "encoding": "utf-8",
-      "sha256": "ee70e8c4cafd0471bee97c9829e5a9c0bcd1a2df2c0538631b26754e791c9135",
-      "git_blob_sha": "e9cb345b51683e9e03c25e3738c72d94d7a931db"
-    },
-    {
-      "path": "docs/GITHUB_BACKUP.md",
-      "bytes": 2482,
-      "encoding": "utf-8",
-      "sha256": "7870a54bf298f9cdffe57e91d5bd25495afe81c037b0d19de6f686e462e73374",
-      "git_blob_sha": "fd0232743f13462300b1cd035a8b29546ac73e89"
     },
     {
       "path": "docs/KOREAN_RELATED_WORK.md",
@@ -684,129 +607,17 @@
     },
     {
       "path": "docs/MODEL_CARD.md",
-      "bytes": 7010,
+      "bytes": 5754,
       "encoding": "utf-8",
-      "sha256": "7a15a7d5b8277ab610893d7d6031be8216bcf4f52de3a53abaad887515d5bf29",
-      "git_blob_sha": "1055c458e6a164709ee0a845a0993a52897dcc24"
-    },
-    {
-      "path": "docs/NATIVE_PLATFORM_2026-10-30.md",
-      "bytes": 3523,
-      "encoding": "utf-8",
-      "sha256": "16c3b3a0a541e41573911353850d2d49d6785e8f99fb1111d0efe7b7f84c723b",
-      "git_blob_sha": "ef2accea7797670e875c6f5702941c6bd54eae37"
-    },
-    {
-      "path": "docs/POSTMATCH_UPDATE_2026-10-30.md",
-      "bytes": 5359,
-      "encoding": "utf-8",
-      "sha256": "312d98155eb273a805696d7af0b267da14f045b03a4483c5da4776b269381bd9",
-      "git_blob_sha": "c2f5118b16d46c789b8cf1a024d627b084995fe5"
-    },
-    {
-      "path": "docs/PRESENTATION_CONTENT.md",
-      "bytes": 8670,
-      "encoding": "utf-8",
-      "sha256": "070b8c49b2e3b4d6aa3e6e3d50f08de1b9599a273b3457b6ed6d1632531d2013",
-      "git_blob_sha": "77d707341915803a03af2e86ab8af20d55a5dff3"
-    },
-    {
-      "path": "docs/PROJECT_HISTORY_AND_IDEAS.md",
-      "bytes": 13155,
-      "encoding": "utf-8",
-      "sha256": "609cfbd1e82b07528aa510da32f91dcff3f03fb1faca5f2fd50011ecf56bc5a7",
-      "git_blob_sha": "0d6804223c2011494ae8467650b2e70abcf567da"
-    },
-    {
-      "path": "docs/QA_BACKEND_0_5_RESTRICTED_2026-10-30.txt",
-      "bytes": 1206,
-      "encoding": "utf-8",
-      "sha256": "2e678ec1ea8f1225f5049a434f0cd60d8fee646a0549db491b09e31cda293387",
-      "git_blob_sha": "2a0e4113e2f8a068ae08117c92045dd0e4938371"
+      "sha256": "e58d3c737a898b0485a6781bd3695a895d12fd7ca216474178917da184366831",
+      "git_blob_sha": "3634e049d77c414d8b5dde0f19a0b7114f24f9c3"
     },
     {
       "path": "docs/QA_FEATURE_EXTENSION_2026-10-30.md",
-      "bytes": 7208,
+      "bytes": 7453,
       "encoding": "utf-8",
-      "sha256": "a0162fb979368fa423f5baf47747abb14e4eddb89a5bd10c3fb24e0b9377e0d7",
-      "git_blob_sha": "978c4e8154079519898750e52851fb8eb8ccae1f"
-    },
-    {
-      "path": "docs/QA_FULL_BACKEND_0_4_1_2026-10-30.txt",
-      "bytes": 966,
-      "encoding": "utf-8",
-      "sha256": "d4665d24bcd93398e66026ec6b95c6fc6114166b2f39693b91aa8effdc0a95ad",
-      "git_blob_sha": "4533d0e64a069f1106af57b62f38518c5d02b37c"
-    },
-    {
-      "path": "docs/QA_FULL_BACKEND_0_5_0_2026-10-30.txt",
-      "bytes": 1380,
-      "encoding": "utf-8",
-      "sha256": "4f4791599dffb07f8cdb580b17bd4c991667d28e7bab4380b4c33d96ab0f820f",
-      "git_blob_sha": "cec2696dcfe02af10ae38c457f6adb0f7aa86a22"
-    },
-    {
-      "path": "docs/QA_FULL_BACKEND_0_6_0_2026-10-30.txt",
-      "bytes": 1584,
-      "encoding": "utf-8",
-      "sha256": "e256207b0ce29ec8637fd9ddbee5012cc1c4bb04a6952e764426372c25bfd6d6",
-      "git_blob_sha": "9cb530fbaa8c1ea0865e094334a306dc4f82cf7f"
-    },
-    {
-      "path": "docs/QA_FULL_BACKEND_2026-10-30.txt",
-      "bytes": 668,
-      "encoding": "utf-8",
-      "sha256": "5eb7c60af376fd59b17459b07e09b00eeb0af74fd29d9560bbfcfaaabf77b4cf",
-      "git_blob_sha": "9211a1628bab968f19eccae0468230d59be55550"
-    },
-    {
-      "path": "docs/QA_LANGUAGES_2026-10-30.md",
-      "bytes": 3413,
-      "encoding": "utf-8",
-      "sha256": "a4ca83955ac05adcb899271f0a8a70802846c7487bf8aa1f225caec549cde070",
-      "git_blob_sha": "e508f8903cb75c01ec7e474246a3ba42b85d4bfb"
-    },
-    {
-      "path": "docs/QA_NATIVE_LOCAL_2026-10-30.md",
-      "bytes": 3237,
-      "encoding": "utf-8",
-      "sha256": "3ac55ac31b132f26040954d5eafa21658baa81cfcfc390b23d0d5e3aa15c888d",
-      "git_blob_sha": "18120d0e47a5ba11e63971bb82356aed4535cd10"
-    },
-    {
-      "path": "docs/QA_RESULTS.md",
-      "bytes": 19785,
-      "encoding": "utf-8",
-      "sha256": "7793dba0b47e702faf7b55d30f48d11e12750305f950d2e642b20509fb6b7fd1",
-      "git_blob_sha": "b272376ca0cbdcb93966b1cc27f905ac1fc2f658"
-    },
-    {
-      "path": "docs/RANK_HISTORY_2026-10-30.md",
-      "bytes": 7690,
-      "encoding": "utf-8",
-      "sha256": "fe723cad8e86d341cb2ee3fbf5074101cd9687d117b596d70ebff35fe9806a5e",
-      "git_blob_sha": "8ef43af88cb102f49ca20702c019d93e99b94ba9"
-    },
-    {
-      "path": "docs/REAL_MODEL_RESULTS.md",
-      "bytes": 5769,
-      "encoding": "utf-8",
-      "sha256": "9d529b137a638a1ed312243be6edf7e5471a5a9adae42da6bc707fad4f1e386c",
-      "git_blob_sha": "e4287c195aba1bcf7685bfff259a2a1783e2ef53"
-    },
-    {
-      "path": "docs/REPORT_CONTENT_DRAFT.md",
-      "bytes": 24794,
-      "encoding": "utf-8",
-      "sha256": "c5b5026b635af5b47b55691c133f9ce03c6a9231acc48b0aa0decb4ac24d2ff3",
-      "git_blob_sha": "7e8874243aac269d06d336f0d3b19b142415e65a"
-    },
-    {
-      "path": "docs/RESEARCH_TOOLS_2026-10-30.md",
-      "bytes": 10431,
-      "encoding": "utf-8",
-      "sha256": "e0623e166fcce311268b9d48b53986d4f3f7a93518fee305a869e561cd775c13",
-      "git_blob_sha": "4f48aef2e42e33bd674748ffb47db9377487ce93"
+      "sha256": "68fb4f36c76219efddfe9922ca3f5a5586e932a73cf11353ce0291ac8c9f2fff",
+      "git_blob_sha": "e74fc4afb3363a8e7d941afe1b4c016f722c4400"
     },
     {
       "path": "docs/SOURCE_APPENDIX.md",
@@ -816,32 +627,11 @@
       "git_blob_sha": "7dcaad08dfe5e239ef3cd71d3754f458b99f5721"
     },
     {
-      "path": "docs/SOURCE_CONTEXT.md",
-      "bytes": 3696,
-      "encoding": "utf-8",
-      "sha256": "3365b7759615e99e8e56294e278eba2facc38142e7fb676a415b308f55083a8f",
-      "git_blob_sha": "7b088e07766562b61cbb5c9bfe90e80a5ed3e453"
-    },
-    {
-      "path": "docs/SUBMISSION_READINESS_2026-10-30.md",
-      "bytes": 6090,
-      "encoding": "utf-8",
-      "sha256": "aaa6ec78ab060cb546fbb4bb09cf944244ce0d6a5d42b121c190d9ee695532be",
-      "git_blob_sha": "8077357ad7e180f96a023beade96eabd288989ce"
-    },
-    {
       "path": "docs/SUBMISSION_REQUIREMENTS.md",
-      "bytes": 6697,
+      "bytes": 2592,
       "encoding": "utf-8",
-      "sha256": "4bd62c52b3a9509fe70ad9478c6593fe04b373efe5b51ec0f9088fcba728d909",
-      "git_blob_sha": "8a2ba2fff50db6512f184f8c663e8a8be5291a50"
-    },
-    {
-      "path": "docs/TEAM_HANDOFF.md",
-      "bytes": 15948,
-      "encoding": "utf-8",
-      "sha256": "dfbfe4c80cedef97999270743185563b20aebf579404926bd9fcf06d75ed8455",
-      "git_blob_sha": "b676fd4fc01468250f03f965422cbf6ac26f8be9"
+      "sha256": "cee07a34d22218a0716df0ce749ea4e1068d932a7b025a496e560544a985408d",
+      "git_blob_sha": "afbd71d82aca77afe477f585ff773822933c2aec"
     },
     {
       "path": "docs/TEMPORAL_MODELS.md",
@@ -852,78 +642,29 @@
     },
     {
       "path": "docs/TEST_RESULTS.txt",
-      "bytes": 3094,
+      "bytes": 883,
       "encoding": "utf-8",
-      "sha256": "c63380f010805f2ce979de792c88008868a0e01f61d947cce8d0d5005344c841",
-      "git_blob_sha": "37b907732d34aedd735cf989e0a3fbcaadd20313"
+      "sha256": "4481637cabf9a72f2ef30aad4f05f23394c608badf4a2169b16a60c665eced7d",
+      "git_blob_sha": "d62561cd620b4b6988ad613826f597a991206e1e"
     },
     {
       "path": "docs/TIPS_ENGINE.md",
-      "bytes": 7958,
+      "bytes": 8154,
       "encoding": "utf-8",
-      "sha256": "c259b836c513e90a70bcb5087d2cf1d1f7a16925feef14d3930578baa35cf62b",
-      "git_blob_sha": "2a8f80c78d94af2380dec5c3faf2a8cf1715a065"
+      "sha256": "9e4eccb56e94d7ae0670594529af00d08372493cca60cdcbd3e9df767e7580b7",
+      "git_blob_sha": "0006fb902feee1da4932087cf13a1cf1c403a45e"
     },
     {
-      "path": "docs/WRAP_UP_STATUS.md",
-      "bytes": 5438,
+      "path": "docs/VALIDATION.md",
+      "bytes": 3989,
       "encoding": "utf-8",
-      "sha256": "67483c6046d214cce39983cec5b104d46c5f68f2e30d8f4c71d4c4c33d636f77",
-      "git_blob_sha": "f2e7c043d8da4e698ce43252f8336d82ef362cdb"
-    },
-    {
-      "path": "docs/screenshots/learning-resources.png",
-      "bytes": 56263,
-      "encoding": "binary",
-      "sha256": "9e4f03e42dc60494c63dd0b0ad18227fbeea584b4599d2122f9fb5b336895720",
-      "git_blob_sha": "0527914be0a5d162ea7db7d976c86347ef9a2239"
-    },
-    {
-      "path": "docs/screenshots/live-riot-dashboard.jpg",
-      "bytes": 173771,
-      "encoding": "binary",
-      "sha256": "9a96800f4f0095d90c02052f09bf9e5578ea31452f40c8b314ebeb07d1f5cfc5",
-      "git_blob_sha": "c822aa7ef0427e294455e202c320ba982caee266"
-    },
-    {
-      "path": "docs/screenshots/real-model-evaluation.jpg",
-      "bytes": 116403,
-      "encoding": "binary",
-      "sha256": "ddbf92487dbdd7c9bb1ffb984bdd5cbb9ae4febfeedd79fb87755ada9f537f94",
-      "git_blob_sha": "a387217da7a2016d38a479eaeca0b301d2d02c67"
-    },
-    {
-      "path": "docs/screenshots/restarted-live-chrome.jpg",
-      "bytes": 85093,
-      "encoding": "binary",
-      "sha256": "f99cb65c0fdad2a4e82e939aac6ce55f3f393de6d1a46133641ba0c4d5c0f93b",
-      "git_blob_sha": "7676b263f0d65b0095145f0b7f294ae0ba6b02ac"
-    },
-    {
-      "path": "docs/screenshots/restarted-neural-evaluation.png",
-      "bytes": 71138,
-      "encoding": "binary",
-      "sha256": "1b79191b3cb3750fae8c85c838c1765a05e712f1a7a15e98da48ad69a30fbd2b",
-      "git_blob_sha": "166787703b416a87eea404164f175788c67343e4"
-    },
-    {
-      "path": "docs/screenshots/restarted-neural-live.png",
-      "bytes": 64102,
-      "encoding": "binary",
-      "sha256": "f43386386b77ebb4b2743b22cfdacebd40ba9175818486c2b135016aa3413e4a",
-      "git_blob_sha": "4ac205025511b412b30fdf3f1baf1dc9f502d959"
-    },
-    {
-      "path": "docs/screenshots/restarted-neural-match.png",
-      "bytes": 63972,
-      "encoding": "binary",
-      "sha256": "e237e924ad85f9343ed4a1671a18f80f96ff5dbf35f152bade12e6c69701fc9b",
-      "git_blob_sha": "b7f2ec1cea4bbe7fb727a522bc8b6a409bd1a875"
+      "sha256": "96fd3524835171ce79b9dc46364093c73493163ad6c0876bf2b199a7dc278550",
+      "git_blob_sha": "aea2ba3bff6c81f8b3f7a95d0d2a58e4721ecc63"
     },
     {
       "path": "docs/screenshots/v06-later-audit.png",
       "bytes": 67531,
-      "encoding": "binary",
+      "encoding": "base64",
       "sha256": "90110a79b3b9978d12e855024d8e90d896f6d6301d2251c17b7f2ae8e7b562bd",
       "git_blob_sha": "3bc972318d2e49fb9fc1ae54b7c3209c57d46f96"
     },
@@ -1313,100 +1054,37 @@
       "git_blob_sha": "c8eb1b36158f5b1ff86e9fa6e7e39ff2ea93f34c"
     },
     {
-      "path": "submission/LolAi_Final_Package_v07_2026-10-30.zip",
-      "bytes": 2646235,
-      "encoding": "binary",
-      "sha256": "478cfa0d1ea149d9bfd46c7ad9bce919c8186a8281bc7c51dec4b949e1f0ea15",
-      "git_blob_sha": "01ebad31a3072e3a98f8ac795119531422aadea3"
-    },
-    {
-      "path": "submission/LolAi_Review_Package_v06_2026-10-30.zip",
-      "bytes": 2571319,
-      "encoding": "binary",
-      "sha256": "37f8814f9c5e8509dd046729fa7090e54dc8bf41629d194c3fcddf77207a550b",
-      "git_blob_sha": "00a86cbe3dd41630434c073db9c3496c3d51a04b"
-    },
-    {
-      "path": "submission/QA/academic-artifacts.md",
-      "bytes": 3222,
-      "encoding": "utf-8",
-      "sha256": "0426f3db173763e0a2b2f8b27965e2c5da45b519447124242c85c003078b61de",
-      "git_blob_sha": "adb32134941033068e8275699d28c4421dc19944"
-    },
-    {
-      "path": "submission/QA/report-render-receipt.json",
-      "bytes": 5008,
-      "encoding": "utf-8",
-      "sha256": "0d38fa68aec8a5fed011235e339b0bd37e1219a59c5eab1c18e6c48be275298a",
-      "git_blob_sha": "baaaa27210affb70c7089c374858a5330dbb50f0"
-    },
-    {
-      "path": "submission/QA/slides-publication-receipt.json",
-      "bytes": 512,
-      "encoding": "utf-8",
-      "sha256": "57b1965df72a572b53a943d87aeb5ac67ddc03184102b8cf132863272d226024",
-      "git_blob_sha": "76b3e16a5cf7a60eb5e580883d150616c2cde6bf"
-    },
-    {
-      "path": "submission/final_v06_2026-10-30/LolAi_FinalReport_v06_Review.docx",
-      "bytes": 1326279,
-      "encoding": "binary",
-      "sha256": "3246b529db956195dc69e20ab640571fa862fd634af36690628b131107c23d14",
-      "git_blob_sha": "bbda1587639356a486dedd74910514669a8a1a8f"
-    },
-    {
-      "path": "submission/final_v06_2026-10-30/LolAi_FinalReport_v06_Review.pdf",
-      "bytes": 1130142,
-      "encoding": "binary",
-      "sha256": "2d54ce9ebeb898f07707d21bedff5fde18272da2fec20a5ee9bdf104588708dc",
-      "git_blob_sha": "c04059a70824daca95a6490ee81a694d28e2255d"
-    },
-    {
-      "path": "submission/final_v06_2026-10-30/READ_ME_FIRST.md",
-      "bytes": 2768,
-      "encoding": "utf-8",
-      "sha256": "9527753ab1ca516dbc2ab885159a0e3d4deedd573f3ecd10eb7d343dfa200c17",
-      "git_blob_sha": "fc2f7fa6b78192eaab1be447f655366b89125985"
-    },
-    {
-      "path": "submission/final_v06_2026-10-30/소프트웨어학과_박승현(2019310202).pptx",
-      "bytes": 94510,
-      "encoding": "binary",
-      "sha256": "65102981113f7c97ca0694221f132cd09b0a6cb7949b14630557841c3c389a1f",
-      "git_blob_sha": "c0687248b43aba29059e65467d26483937e10fda"
+      "path": "submission/LolAi_Final_Package_v07_Clean_2026-10-30.zip",
+      "bytes": 1995548,
+      "encoding": "base64",
+      "sha256": "d1584c07a759c17d925764ad65a787d6a03894188ab5e8bc002b2cdda1db150b",
+      "git_blob_sha": "efa876ca521863598114f83406ec40b5ddae37a7"
     },
     {
       "path": "submission/final_v07_2026-10-30/LolAi_FinalReport_v07.docx",
       "bytes": 1327230,
-      "encoding": "binary",
+      "encoding": "base64",
       "sha256": "e97b15c0db0495bae07e8266106d0cb443bfb86c650c3ce31b95d056cf61aa30",
       "git_blob_sha": "8b379aec3cf95a2e379a593898ee643015f5c9ec"
     },
     {
       "path": "submission/final_v07_2026-10-30/LolAi_FinalReport_v07.pdf",
       "bytes": 1162910,
-      "encoding": "binary",
+      "encoding": "base64",
       "sha256": "b6eaf05fb59987a5d0586c8160cab13820896bc8404ce6479c3a480a98713c85",
       "git_blob_sha": "bbdde5f9476d39148fdc3bb4bcbb132f9bf715cd"
     },
     {
       "path": "submission/final_v07_2026-10-30/READ_ME_FIRST.md",
-      "bytes": 3668,
+      "bytes": 1957,
       "encoding": "utf-8",
-      "sha256": "35169802cd4b4cf73a2a3eca42e6e6b135edae1a6147576cb07006f99ca80c55",
-      "git_blob_sha": "195b0e1b79abfa3ef8c21e6254337347a2eb1823"
-    },
-    {
-      "path": "submission/final_v07_2026-10-30/backend_check_output.txt",
-      "bytes": 883,
-      "encoding": "utf-8",
-      "sha256": "4481637cabf9a72f2ef30aad4f05f23394c608badf4a2169b16a60c665eced7d",
-      "git_blob_sha": "d62561cd620b4b6988ad613826f597a991206e1e"
+      "sha256": "3b4fd78b220c7cb69d77c596a23b8bcc38e8b51429e2bc0dbb6fbbb17078e7fd",
+      "git_blob_sha": "23966166ffcfb771ae24fc97faa15c458d9a7038"
     },
     {
       "path": "submission/final_v07_2026-10-30/소프트웨어학과_박승현(2019310202).pptx",
       "bytes": 94510,
-      "encoding": "binary",
+      "encoding": "base64",
       "sha256": "65102981113f7c97ca0694221f132cd09b0a6cb7949b14630557841c3c389a1f",
       "git_blob_sha": "c0687248b43aba29059e65467d26483937e10fda"
     }

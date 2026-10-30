@@ -1,5 +1,7 @@
 # Feature extension QA — 2026-10-30
 
+Historical validation evidence for the earlier feature-extension release, cited by the final report. Later 0.6.0 checks are recorded in [VALIDATION.md](VALIDATION.md); earlier pending/push statements below describe their original checkpoint.
+
 Release API version: 0.2.0. Previous full MVP evidence remains separately recorded in QA_RESULTS.md.
 
 - Earlier focused run: **108 passed, six subtests passed in 5.76s**. Command: `.venv/Scripts/python.exe -m pytest backend/tests --ignore=backend/tests/test_api.py --ignore=backend/tests/test_collect.py -q`. This includes two in-process endpoint/lifespan/gateway/cache flow tests. The mocks complete without pending I/O; no real network is exercised by those tests.
