@@ -28,6 +28,15 @@ export function dataDragonItems(patch:string,language:Language){
  return itemRequests.get(key)!
 }
 
+// Match data says FiddleSticks; Data Dragon's file is Fiddlesticks.
+export function championImageUrl(version:string,name:string):string|null{
+ return VERSION.test(version)&&/^[A-Za-z]{2,30}$/.test(name)?`https://ddragon.leagueoflegends.com/cdn/${version}/img/champion/${name==='FiddleSticks'?'Fiddlesticks':name}.png`:null
+}
+export async function latestVersion():Promise<string|null>{
+ const versions=await dataDragonVersions()
+ return Array.isArray(versions)?versions.find(value=>typeof value==='string'&&VERSION.test(value))??null:null
+}
+
 export function itemImageUrl(version:string,id:number):string|null{
  return VERSION.test(version)&&Number.isSafeInteger(id)&&id>0&&id<10_000_000?`https://ddragon.leagueoflegends.com/cdn/${version}/img/item/${id}.png`:null
 }
