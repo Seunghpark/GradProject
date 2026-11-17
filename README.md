@@ -8,10 +8,10 @@ stored matches, native analysis and model inference. Program version: **0.6.0**.
 
 - [Final report PDF](submission/final_v07_2026-10-30/LolAi_FinalReport_v07.pdf) — 47 pages.
 - [Editable report](submission/final_v07_2026-10-30/LolAi_FinalReport_v07.docx).
-- [Presentation](submission/final_v07_2026-10-30/소프트웨어학과_박승현(2019310202).pptx) — 18 slides.
-- [Clean source and academic package](submission/LolAi_Final_Package_v07_Clean_2026-10-30.zip).
+- [Presentation](submission/final_v07_2026-10-30/소프트웨어학과_박승현(2019310220).pptx) — 18 slides.
+- [Clean source and academic package](submission/LolAi_Final_Package_v07_Clean_학번정정_2026-11-02.zip).
 
-Student: 박승현 (2019310202), 소프트웨어학과 / 소프트웨어융합대학.
+Student: 박승현 (2019310220), 소프트웨어학과 / 소프트웨어융합대학.
 Adviser: 한환수. Project: 개인 작품.
 
 ## Implemented features

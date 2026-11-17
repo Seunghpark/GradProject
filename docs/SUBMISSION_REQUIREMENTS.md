@@ -7,7 +7,7 @@ it is not adviser approval or proof of portal submission.
 - Final submission window supplied: October 12–30, 2026, ending 23:59 KST.
 - The student confirmed the work is an individual software project (작품).
 - The student confirmed the final title matches the portal and PDF is accepted.
-- Adviser: 한환수. Review materials use 박승현 (2019310202), 소프트웨어학과,
+- Adviser: 한환수. Review materials use 박승현 (2019310220), 소프트웨어학과,
   소프트웨어융합대학; personal metadata remains subject to student confirmation.
 - An actual trained deep-learning implementation is required and implemented.
 - The final report uses the university's designated section structure. The

@@ -2,15 +2,15 @@
 
 Title: **LolAi.gg: 딥러닝 기반 리그 오브 레전드 과거 경기 분석 및 승패 예측 시스템**
 
-Student: 박승현 (2019310202), 소프트웨어학과 / 소프트웨어융합대학.
+Student: 박승현 (2019310220), 소프트웨어학과 / 소프트웨어융합대학.
 Adviser: 한환수. Track confirmed by the student: 개인 작품.
 
 ## Files
 
 - Final report: `LolAi_FinalReport_v07.pdf` (47 pages).
 - Editable report: `LolAi_FinalReport_v07.docx`.
-- Presentation: `소프트웨어학과_박승현(2019310202).pptx` (18 slides).
-- Project/source package: `LolAi_Final_Package_v07_Clean_2026-10-30.zip`.
+- Presentation: `소프트웨어학과_박승현(2019310220).pptx` (18 slides).
+- Project/source package: `LolAi_Final_Package_v07_Clean_학번정정_2026-11-02.zip`.
 
 The report and slides are unchanged from the checked v07 academic files. The
 clean package removes internal handoff prompts, conversation notes, old status

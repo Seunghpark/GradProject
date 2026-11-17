@@ -5,17 +5,17 @@
   "files": [
     {
       "path": ".gitignore",
-      "bytes": 2349,
+      "bytes": 2232,
       "encoding": "utf-8",
-      "sha256": "a4a5a7815b5d856d8fd3b4af5e7df130706a78b2abca317ca3ec031cfa50c0a9",
-      "git_blob_sha": "a1f55e8855a0681ee7c22016285b70aa297c751e"
+      "sha256": "a2659b63ffa782c57d48a18fa4401e53ab6717f00f4c7813466e6995517a8238",
+      "git_blob_sha": "4ea2cd07138df76c7a24adfd80e9192b11c529d4"
     },
     {
       "path": "README.md",
-      "bytes": 6985,
+      "bytes": 6854,
       "encoding": "utf-8",
-      "sha256": "936ed1cf02400d9cf0a27b1a06353661808f61fb1aec3a7cba508ec1e417891f",
-      "git_blob_sha": "17efad61693b0467042f8c18cda723865ded766e"
+      "sha256": "ff9515d1f31e60f8385b53853d0fdc98c6ac369e7f14bb5e6128e9bac4bc533a",
+      "git_blob_sha": "bac064cd409e015e83be12e50de7221617df8aea"
     },
     {
       "path": "backend/.env.example",
@@ -628,10 +628,10 @@
     },
     {
       "path": "docs/SUBMISSION_REQUIREMENTS.md",
-      "bytes": 2592,
+      "bytes": 2550,
       "encoding": "utf-8",
-      "sha256": "cee07a34d22218a0716df0ce749ea4e1068d932a7b025a496e560544a985408d",
-      "git_blob_sha": "afbd71d82aca77afe477f585ff773822933c2aec"
+      "sha256": "359969327ba0fb31d15a6edbc7589269519c655d1f32bc1d6c8d06c3e6d205cc",
+      "git_blob_sha": "5c5ce16bd5783b5b1eab0914e493759e449b4000"
     },
     {
       "path": "docs/TEMPORAL_MODELS.md",
@@ -664,7 +664,7 @@
     {
       "path": "docs/screenshots/v06-later-audit.png",
       "bytes": 67531,
-      "encoding": "base64",
+      "encoding": "binary",
       "sha256": "90110a79b3b9978d12e855024d8e90d896f6d6301d2251c17b7f2ae8e7b562bd",
       "git_blob_sha": "3bc972318d2e49fb9fc1ae54b7c3209c57d46f96"
     },
@@ -1054,39 +1054,39 @@
       "git_blob_sha": "c8eb1b36158f5b1ff86e9fa6e7e39ff2ea93f34c"
     },
     {
-      "path": "submission/LolAi_Final_Package_v07_Clean_2026-10-30.zip",
-      "bytes": 1995548,
-      "encoding": "base64",
-      "sha256": "d1584c07a759c17d925764ad65a787d6a03894188ab5e8bc002b2cdda1db150b",
-      "git_blob_sha": "efa876ca521863598114f83406ec40b5ddae37a7"
+      "path": "submission/LolAi_Final_Package_v07_Clean_학번정정_2026-11-02.zip",
+      "bytes": 1880353,
+      "encoding": "binary",
+      "sha256": "67fe986ac550f29a574095db97462d48493a01ad8425de38f2b8693297aac992",
+      "git_blob_sha": "84d711f72e7012d9640ed17d91259b963837b591"
     },
     {
       "path": "submission/final_v07_2026-10-30/LolAi_FinalReport_v07.docx",
-      "bytes": 1327230,
-      "encoding": "base64",
-      "sha256": "e97b15c0db0495bae07e8266106d0cb443bfb86c650c3ce31b95d056cf61aa30",
-      "git_blob_sha": "8b379aec3cf95a2e379a593898ee643015f5c9ec"
+      "bytes": 1322668,
+      "encoding": "binary",
+      "sha256": "707b585938da3e7106dbf85483d8d5f45413d695023bf5039e2f5c90c040b8a8",
+      "git_blob_sha": "2e73d3c237b5f2786316ee8be7f9fe3c77b82001"
     },
     {
       "path": "submission/final_v07_2026-10-30/LolAi_FinalReport_v07.pdf",
-      "bytes": 1162910,
-      "encoding": "base64",
-      "sha256": "b6eaf05fb59987a5d0586c8160cab13820896bc8404ce6479c3a480a98713c85",
-      "git_blob_sha": "bbdde5f9476d39148fdc3bb4bcbb132f9bf715cd"
+      "bytes": 2094999,
+      "encoding": "binary",
+      "sha256": "3a88449c843cb22421be02bc5bd31ca83884a5733f69e349c9f3e41fdd234a32",
+      "git_blob_sha": "a968530ee32ffbfee8847eb922f8f1814f1c7345"
     },
     {
       "path": "submission/final_v07_2026-10-30/READ_ME_FIRST.md",
-      "bytes": 1957,
+      "bytes": 1932,
       "encoding": "utf-8",
-      "sha256": "3b4fd78b220c7cb69d77c596a23b8bcc38e8b51429e2bc0dbb6fbbb17078e7fd",
-      "git_blob_sha": "23966166ffcfb771ae24fc97faa15c458d9a7038"
+      "sha256": "e956abf12dcf833da78b6ea83dda5dbe60b2d787fb1226414b64d8a7bd49b0f6",
+      "git_blob_sha": "0f4c45009aae3652f331eceb05d51d9c6219444c"
     },
     {
-      "path": "submission/final_v07_2026-10-30/소프트웨어학과_박승현(2019310202).pptx",
-      "bytes": 94510,
-      "encoding": "base64",
-      "sha256": "65102981113f7c97ca0694221f132cd09b0a6cb7949b14630557841c3c389a1f",
-      "git_blob_sha": "c0687248b43aba29059e65467d26483937e10fda"
+      "path": "submission/final_v07_2026-10-30/소프트웨어학과_박승현(2019310220).pptx",
+      "bytes": 94028,
+      "encoding": "binary",
+      "sha256": "29adf9ff42089fa3df8d22367d311a0f34e85d3be3af223bf3f9d2c778bcbb9b",
+      "git_blob_sha": "68943baa9bfff9d47f4875b3c15ebd0fee3d3da6"
     }
   ],
   "private_data_included": false
